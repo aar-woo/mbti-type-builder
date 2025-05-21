@@ -1,7 +1,7 @@
 import React from "react";
 import { LetterType } from "../../types/letterTypes.tsx";
 import styled from "@emotion/styled";
-import { Button, Card } from "@mui/material";
+import { Button, Card, PaletteColor } from "@mui/material";
 
 const LetterButton = styled(Button)`
   display: flex;
@@ -21,7 +21,7 @@ const LetterSpan = styled.span`
 
 type LetterTypePieceProps = {
   letter: LetterType;
-  color: string;
+  color: PaletteColor;
   isActive?: boolean;
 };
 
@@ -31,8 +31,8 @@ const LetterTypePiece = ({
   isActive = false,
 }: LetterTypePieceProps) => {
   return (
-    <LetterButton style={{ borderColor: color }}>
-      <LetterSpan style={{ color: color }}>{letter}</LetterSpan>
+    <LetterButton style={{ borderColor: color.main }}>
+      <LetterSpan style={{ color: color.main }}>{letter}</LetterSpan>
     </LetterButton>
   );
 };
