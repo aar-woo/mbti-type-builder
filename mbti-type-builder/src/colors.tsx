@@ -18,19 +18,19 @@ declare module "@mui/material/styles" {
 const letterTheme = createTheme({
   palette: {
     red: {
-      main: "#A92523",
+      main: "#D94745",
       contrastText: "#fff",
     },
     yellow: {
-      main: "#F0C808",
+      main: "#0099E0",
       contrastText: "#000",
     },
     green: {
-      main: "#04724D",
+      main: "#F9DD4D",
       contrastText: "#fff",
     },
     blue: {
-      main: "#006494",
+      main: "#06B178",
       contrastText: "#fff",
     },
   },
