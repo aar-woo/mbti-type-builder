@@ -1,5 +1,5 @@
 import React from "react";
-import { LetterType } from "../../types/letterTypes.tsx";
+import { Dichotomy, LetterInfo, LetterType } from "../../types/letterTypes.tsx";
 import styled from "@emotion/styled";
 import {
   Card,
@@ -15,6 +15,7 @@ const LetterCard = styled(Card)`
   flex-direction: column;
   width: 180px;
   height: 150px;
+  border: 1px solid gray;
 `;
 
 const CardContentContainer = styled(CardContent)`
@@ -34,30 +35,34 @@ const CardText = styled(Typography)`
 `;
 
 type LetterTypePieceProps = {
-  letter: LetterType;
+  letterInfo: LetterInfo;
   color: PaletteColor;
-  title: string;
-  subtext: string;
   isActive?: boolean;
+  handleClick: (dichotomy: Dichotomy, letter: LetterType) => void;
 };
 
 const LetterTypePiece = ({
-  letter,
+  letterInfo,
   color,
-  title,
-  subtext,
   isActive = false,
+  handleClick,
 }: LetterTypePieceProps) => {
   return (
-    <CardActionArea>
-      <LetterCard>
+    <CardActionArea
+      onClick={() => {
+        handleClick(letterInfo.dichotomy, letterInfo.letter);
+      }}
+    >
+      <LetterCard sx={{ borderColor: isActive ? "red" : null }}>
         <CardContentContainer sx={{ height: "66%" }}>
-          <LetterSpan style={{ color: color.main }}>{letter}</LetterSpan>
+          <LetterSpan style={{ color: color.main }}>
+            {letterInfo.letter}
+          </LetterSpan>
         </CardContentContainer>
         <CardContentContainer sx={{ height: "33%" }}>
           <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <CardText sx={{ fontWeight: "bold" }}>{title}</CardText>
-            <CardText>{subtext}</CardText>
+            <CardText sx={{ fontWeight: "bold" }}>{letterInfo.title}</CardText>
+            <CardText>{letterInfo.subtext}</CardText>
           </Box>
         </CardContentContainer>
       </LetterCard>
