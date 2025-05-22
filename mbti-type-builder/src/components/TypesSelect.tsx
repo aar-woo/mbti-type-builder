@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TypeLetterPiece from "./LetterType/LetterTypePiece.tsx";
 import LetterType, {
   Dichotomy,
+  LETTER_TYPES,
   letterInfo,
   LetterTypeDichotomies,
 } from "../types/letterTypes.tsx";
@@ -42,11 +43,13 @@ const TypesSelect = () => {
         <TypeLetterPiece
           letterInfo={letterInfo.I}
           color={letterTheme.palette.red}
+          isSelected={dichotomies.energy === LETTER_TYPES.I}
           handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
           letterInfo={letterInfo.E}
           color={letterTheme.palette.red}
+          isSelected={dichotomies.energy === LETTER_TYPES.E}
           handleClick={handleLetterPieceClick}
         />
       </LetterRow>
@@ -54,11 +57,13 @@ const TypesSelect = () => {
         <TypeLetterPiece
           letterInfo={letterInfo.N}
           color={letterTheme.palette.yellow}
+          isSelected={dichotomies.information === LETTER_TYPES.N}
           handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
           letterInfo={letterInfo.S}
           color={letterTheme.palette.yellow}
+          isSelected={dichotomies.information === LETTER_TYPES.S}
           handleClick={handleLetterPieceClick}
         />
       </LetterRow>
@@ -67,11 +72,13 @@ const TypesSelect = () => {
         <TypeLetterPiece
           letterInfo={letterInfo.T}
           color={letterTheme.palette.green}
+          isSelected={dichotomies.decision === LETTER_TYPES.T}
           handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
           letterInfo={letterInfo.F}
           color={letterTheme.palette.green}
+          isSelected={dichotomies.decision === LETTER_TYPES.F}
           handleClick={handleLetterPieceClick}
         />
       </LetterRow>
@@ -79,11 +86,13 @@ const TypesSelect = () => {
         <TypeLetterPiece
           letterInfo={letterInfo.J}
           color={letterTheme.palette.blue}
+          isSelected={dichotomies.orientation === LETTER_TYPES.J}
           handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
           letterInfo={letterInfo.P}
           color={letterTheme.palette.blue}
+          isSelected={dichotomies.orientation === LETTER_TYPES.P}
           handleClick={handleLetterPieceClick}
         />
       </LetterRow>

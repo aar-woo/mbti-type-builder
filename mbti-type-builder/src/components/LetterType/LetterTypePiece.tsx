@@ -37,14 +37,14 @@ const CardText = styled(Typography)`
 type LetterTypePieceProps = {
   letterInfo: LetterInfo;
   color: PaletteColor;
-  isActive?: boolean;
+  isSelected: boolean;
   handleClick: (dichotomy: Dichotomy, letter: LetterType) => void;
 };
 
 const LetterTypePiece = ({
   letterInfo,
   color,
-  isActive = false,
+  isSelected,
   handleClick,
 }: LetterTypePieceProps) => {
   return (
@@ -53,7 +53,12 @@ const LetterTypePiece = ({
         handleClick(letterInfo.dichotomy, letterInfo.letter);
       }}
     >
-      <LetterCard sx={{ borderColor: isActive ? "red" : null }}>
+      <LetterCard
+        style={{
+          borderColor: isSelected ? color.main : undefined,
+          backgroundColor: isSelected ? color.light : undefined,
+        }}
+      >
         <CardContentContainer sx={{ height: "66%" }}>
           <LetterSpan style={{ color: color.main }}>
             {letterInfo.letter}

@@ -50,7 +50,7 @@ export const letterInfo: Record<LetterType, LetterInfo> = {
   },
   T: {
     letter: LETTER_TYPES.T,
-    dichotomy: DICHOTOMIES.information,
+    dichotomy: DICHOTOMIES.decision,
     title: "Thinking",
     subtext: "Logical decisions.",
   },
