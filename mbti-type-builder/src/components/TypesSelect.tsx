@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import TypeLetterPiece from "./LetterType/LetterTypePiece.tsx";
-import { LETTER_TYPES, letterInfo } from "../types/letterTypes.tsx";
+import LetterType, {
+  Dichotomy,
+  letterInfo,
+  LetterTypeDichotomies,
+} from "../types/letterTypes.tsx";
 import { letterTheme } from "../colors.tsx";
 import styled from "@emotion/styled";
 import { Box } from "@mui/material";
@@ -8,6 +12,7 @@ import { Box } from "@mui/material";
 const LettersContainer = styled(Box)`
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
   gap: 1rem;
 `;
 
@@ -18,63 +23,68 @@ const LetterRow = styled(Box)`
 `;
 
 const TypesSelect = () => {
+  const [dichotomies, setDichotomies] = useState<LetterTypeDichotomies>({
+    energy: null,
+    information: null,
+    decision: null,
+    orientation: null,
+  });
+
+  const handleLetterPieceClick = (dichotomy: Dichotomy, letter: LetterType) => {
+    setDichotomies((prev) => {
+      return { ...prev, [dichotomy]: letter };
+    });
+  };
+
   return (
     <LettersContainer>
       <LetterRow>
         <TypeLetterPiece
-          letter={LETTER_TYPES.I}
+          letterInfo={letterInfo.I}
           color={letterTheme.palette.red}
-          title={letterInfo.I.title}
-          subtext={letterInfo.I.subtext}
+          handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
-          letter={LETTER_TYPES.E}
+          letterInfo={letterInfo.E}
           color={letterTheme.palette.red}
-          title={letterInfo.E.title}
-          subtext={letterInfo.E.subtext}
+          handleClick={handleLetterPieceClick}
         />
       </LetterRow>
       <LetterRow>
         <TypeLetterPiece
-          letter={LETTER_TYPES.N}
+          letterInfo={letterInfo.N}
           color={letterTheme.palette.yellow}
-          title={letterInfo.N.title}
-          subtext={letterInfo.N.subtext}
+          handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
-          letter={LETTER_TYPES.S}
+          letterInfo={letterInfo.S}
           color={letterTheme.palette.yellow}
-          title={letterInfo.S.title}
-          subtext={letterInfo.S.subtext}
+          handleClick={handleLetterPieceClick}
         />
       </LetterRow>
 
       <LetterRow>
         <TypeLetterPiece
-          letter={LETTER_TYPES.T}
+          letterInfo={letterInfo.T}
           color={letterTheme.palette.green}
-          title={letterInfo.T.title}
-          subtext={letterInfo.T.subtext}
+          handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
-          letter={LETTER_TYPES.F}
+          letterInfo={letterInfo.F}
           color={letterTheme.palette.green}
-          title={letterInfo.F.title}
-          subtext={letterInfo.F.subtext}
+          handleClick={handleLetterPieceClick}
         />
       </LetterRow>
       <LetterRow>
         <TypeLetterPiece
-          letter={LETTER_TYPES.J}
+          letterInfo={letterInfo.J}
           color={letterTheme.palette.blue}
-          title={letterInfo.J.title}
-          subtext={letterInfo.J.subtext}
+          handleClick={handleLetterPieceClick}
         />
         <TypeLetterPiece
-          letter={LETTER_TYPES.P}
+          letterInfo={letterInfo.P}
           color={letterTheme.palette.blue}
-          title={letterInfo.P.title}
-          subtext={letterInfo.P.subtext}
+          handleClick={handleLetterPieceClick}
         />
       </LetterRow>
     </LettersContainer>
