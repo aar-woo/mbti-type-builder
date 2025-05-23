@@ -5,6 +5,7 @@ import LetterType, {
   Dichotomy,
   LetterTypeDichotomies,
 } from "../types/letterTypes.tsx";
+import { Box } from "@mui/material";
 
 const HomePage = () => {
   const [dichotomies, setDichotomies] = useState<LetterTypeDichotomies>({
@@ -21,13 +22,13 @@ const HomePage = () => {
   };
 
   return (
-    <div>
-      <TypeAggregate />
+    <Box>
+      <TypeAggregate dichotomies={dichotomies} />
       <TypesSelect
         dichotomies={dichotomies}
         onLetterPieceClick={handleLetterPieceClick}
       />
-    </div>
+    </Box>
   );
 };
 
