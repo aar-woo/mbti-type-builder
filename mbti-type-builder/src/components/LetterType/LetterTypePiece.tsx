@@ -1,14 +1,13 @@
-import React from "react";
-import { Dichotomy, LetterInfo, LetterType } from "../../types/letterTypes.tsx";
+import { Dichotomy, LetterInfo, LetterType } from "../../types/letterTypes";
 import styled from "@emotion/styled";
 import {
   Card,
   CardContent,
-  PaletteColor,
   Typography,
   Box,
   CardActionArea,
 } from "@mui/material";
+import { letterTheme } from "../../colors";
 
 const LetterCard = styled(Card)`
   display: flex;
@@ -36,14 +35,12 @@ const CardText = styled(Typography)`
 
 type LetterTypePieceProps = {
   letterInfo: LetterInfo;
-  color: PaletteColor;
   isSelected: boolean;
   handleClick: (dichotomy: Dichotomy, letter: LetterType) => void;
 };
 
 const LetterTypePiece = ({
   letterInfo,
-  color,
   isSelected,
   handleClick,
 }: LetterTypePieceProps) => {
@@ -55,12 +52,18 @@ const LetterTypePiece = ({
     >
       <LetterCard
         style={{
-          borderColor: isSelected ? color.main : undefined,
-          backgroundColor: isSelected ? color.light : undefined,
+          borderColor: isSelected
+            ? letterTheme.palette[letterInfo.dichotomy].main
+            : undefined,
+          backgroundColor: isSelected
+            ? letterTheme.palette[letterInfo.dichotomy].light
+            : undefined,
         }}
       >
         <CardContentContainer sx={{ height: "66%" }}>
-          <LetterSpan style={{ color: color.main }}>
+          <LetterSpan
+            style={{ color: letterTheme.palette[letterInfo.dichotomy].main }}
+          >
             {letterInfo.letter}
           </LetterSpan>
         </CardContentContainer>

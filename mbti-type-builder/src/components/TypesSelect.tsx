@@ -1,12 +1,10 @@
-import React, { useState } from "react";
-import TypeLetterPiece from "./LetterType/LetterTypePiece.tsx";
+import LetterTypePiece from "./LetterType/LetterTypePiece";
 import LetterType, {
   Dichotomy,
   LETTER_TYPES,
   letterInfo,
   LetterTypeDichotomies,
-} from "../types/letterTypes.tsx";
-import { letterTheme } from "../colors.tsx";
+} from "../types/letterTypes";
 import styled from "@emotion/styled";
 import { Box } from "@mui/material";
 
@@ -32,58 +30,50 @@ const TypesSelect = ({ dichotomies, onLetterPieceClick }: TypesSelectProps) => {
   return (
     <LettersContainer>
       <LetterRow>
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.I}
-          color={letterTheme.palette.red}
           isSelected={dichotomies.energy === LETTER_TYPES.I}
           handleClick={onLetterPieceClick}
         />
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.E}
-          color={letterTheme.palette.red}
           isSelected={dichotomies.energy === LETTER_TYPES.E}
           handleClick={onLetterPieceClick}
         />
       </LetterRow>
       <LetterRow>
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.N}
-          color={letterTheme.palette.yellow}
           isSelected={dichotomies.information === LETTER_TYPES.N}
           handleClick={onLetterPieceClick}
         />
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.S}
-          color={letterTheme.palette.yellow}
           isSelected={dichotomies.information === LETTER_TYPES.S}
           handleClick={onLetterPieceClick}
         />
       </LetterRow>
 
       <LetterRow>
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.T}
-          color={letterTheme.palette.green}
           isSelected={dichotomies.decision === LETTER_TYPES.T}
           handleClick={onLetterPieceClick}
         />
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.F}
-          color={letterTheme.palette.green}
           isSelected={dichotomies.decision === LETTER_TYPES.F}
           handleClick={onLetterPieceClick}
         />
       </LetterRow>
       <LetterRow>
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.J}
-          color={letterTheme.palette.blue}
           isSelected={dichotomies.orientation === LETTER_TYPES.J}
           handleClick={onLetterPieceClick}
         />
-        <TypeLetterPiece
+        <LetterTypePiece
           letterInfo={letterInfo.P}
-          color={letterTheme.palette.blue}
           isSelected={dichotomies.orientation === LETTER_TYPES.P}
           handleClick={onLetterPieceClick}
         />
