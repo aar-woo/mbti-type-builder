@@ -1,7 +1,8 @@
-import React from "react";
-import { LetterTypeDichotomies } from "../types/letterTypes";
-import { Box, Typography } from "@mui/material";
+import { LetterTypeDichotomies } from "../../types/letterTypes";
+import { Box } from "@mui/material";
 import styled from "@emotion/styled";
+import AggregatePiece from "./AggregatePiece";
+import { Dichotomy } from "../../types/letterTypes";
 
 const TypeAggregateContainer = styled(Box)`
   display: flex;
@@ -9,6 +10,7 @@ const TypeAggregateContainer = styled(Box)`
   justify-content: center;
   margin-top: 1rem;
   font-size: 4rem;
+  gap: 4px;
 `;
 
 type TypeAggregateProps = {
@@ -20,9 +22,10 @@ const TypeAggregate = ({ dichotomies }: TypeAggregateProps) => {
     <TypeAggregateContainer>
       {Object.keys(dichotomies).map((dichotomy) => {
         return (
-          <Typography sx={{ fontSize: "2rem" }}>
-            {dichotomies[dichotomy]}
-          </Typography>
+          <AggregatePiece
+            letter={dichotomies[dichotomy]}
+            dichotomy={dichotomy as Dichotomy}
+          />
         );
       })}
     </TypeAggregateContainer>

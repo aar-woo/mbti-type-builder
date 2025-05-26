@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import TypesSelect from "../components/TypesSelect.tsx";
-import TypeAggregate from "../components/TypeAggregate.tsx";
+import TypeAggregate from "../components/TypeAggregate/TypeAggregate.tsx";
 import LetterType, {
   Dichotomy,
   LetterTypeDichotomies,
