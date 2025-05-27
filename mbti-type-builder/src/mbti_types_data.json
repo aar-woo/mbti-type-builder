@@ -1,0 +1,306 @@
+{
+  "INFJ": {
+    "type": "INFJ",
+    "nickname": "The Advocate",
+    "functionStack": ["Ni", "Fe", "Ti", "Se"],
+    "summary": "Deeply intuitive and empathetic, INFJs are quiet idealists who care deeply about helping others and creating meaningful change.",
+    "strengths": [
+      "Visionary and insightful",
+      "Empathetic listeners",
+      "Strong moral compass",
+      "Strategic thinkers"
+    ],
+    "weaknesses": [
+      "Prone to burnout",
+      "May avoid conflict",
+      "Can be overly idealistic",
+      "Hard to open up"
+    ],
+    "famousPeople": ["Carl Jung", "Gandhi", "Taylor Swift"]
+  },
+  "INFP": {
+    "type": "INFP",
+    "nickname": "The Mediator",
+    "functionStack": ["Fi", "Ne", "Si", "Te"],
+    "summary": "Idealistic and imaginative, INFPs are deeply in touch with their values and seek personal meaning in everything they do.",
+    "strengths": [
+      "Compassionate and loyal",
+      "Creative and expressive",
+      "Value-driven",
+      "Adaptable thinkers"
+    ],
+    "weaknesses": [
+      "Can be overly sensitive",
+      "Conflict-averse",
+      "May struggle with practical details",
+      "Tends to procrastinate"
+    ],
+    "famousPeople": ["J.R.R. Tolkien", "Princess Diana", "Audrey Hepburn"]
+  },
+  "ENFP": {
+    "type": "ENFP",
+    "nickname": "The Campaigner",
+    "functionStack": ["Ne", "Fi", "Te", "Si"],
+    "summary": "Energetic and enthusiastic, ENFPs love exploring possibilities and connecting with people through shared ideas and passions.",
+    "strengths": [
+      "Creative and spontaneous",
+      "Charismatic",
+      "Open-minded",
+      "Motivational"
+    ],
+    "weaknesses": [
+      "May lack follow-through",
+      "Gets bored easily",
+      "Can be overly idealistic",
+      "May avoid routine"
+    ],
+    "famousPeople": ["Robin Williams", "Will Smith", "Mark Twain"]
+  },
+  "ENFJ": {
+    "type": "ENFJ",
+    "nickname": "The Protagonist",
+    "functionStack": ["Fe", "Ni", "Se", "Ti"],
+    "summary": "Natural-born leaders, ENFJs are driven by their vision of a better world and excel at bringing people together toward a common goal.",
+    "strengths": [
+      "Charismatic and inspiring",
+      "Empathetic",
+      "Organized and responsible",
+      "Visionary"
+    ],
+    "weaknesses": [
+      "Takes on too much",
+      "May be overly self-sacrificing",
+      "Struggles with boundaries",
+      "Can be controlling under stress"
+    ],
+    "famousPeople": ["Barack Obama", "Oprah Winfrey", "Martin Luther King Jr."]
+  },
+  "INTJ": {
+    "type": "INTJ",
+    "nickname": "The Architect",
+    "functionStack": ["Ni", "Te", "Fi", "Se"],
+    "summary": "Strategic and independent, INTJs are natural planners who thrive on setting goals and executing long-term visions.",
+    "strengths": [
+      "Analytical and decisive",
+      "Independent thinkers",
+      "Efficient and organized",
+      "Future-focused"
+    ],
+    "weaknesses": [
+      "Can be overly critical",
+      "May struggle with emotions",
+      "Dislikes inefficiency",
+      "Impatient with incompetence"
+    ],
+    "famousPeople": ["Elon Musk", "Isaac Newton", "Jane Austen"]
+  },
+  "INTP": {
+    "type": "INTP",
+    "nickname": "The Logician",
+    "functionStack": ["Ti", "Ne", "Si", "Fe"],
+    "summary": "Innovative and curious, INTPs are driven by the pursuit of knowledge and enjoy exploring complex theories and ideas.",
+    "strengths": [
+      "Highly analytical",
+      "Independent problem-solvers",
+      "Imaginative thinkers",
+      "Open-minded"
+    ],
+    "weaknesses": [
+      "Can be emotionally distant",
+      "May overanalyze",
+      "Struggles with structure",
+      "Dislikes small talk"
+    ],
+    "famousPeople": ["Albert Einstein", "Bill Gates", "Tina Fey"]
+  },
+  "ENTP": {
+    "type": "ENTP",
+    "nickname": "The Debater",
+    "functionStack": ["Ne", "Ti", "Fe", "Si"],
+    "summary": "Quick-witted and curious, ENTPs enjoy intellectual challenges, debates, and exploring new ideas and innovations.",
+    "strengths": [
+      "Clever and inventive",
+      "Energetic",
+      "Good communicators",
+      "Adaptive thinkers"
+    ],
+    "weaknesses": [
+      "Easily bored",
+      "Can be argumentative",
+      "Dislikes routine",
+      "May lack follow-through"
+    ],
+    "famousPeople": ["Mark Twain", "Tom Hanks", "Richard Feynman"]
+  },
+  "ENTJ": {
+    "type": "ENTJ",
+    "nickname": "The Commander",
+    "functionStack": ["Te", "Ni", "Se", "Fi"],
+    "summary": "Bold and strategic, ENTJs are natural leaders who enjoy organizing people and projects to achieve ambitious goals.",
+    "strengths": [
+      "Confident and decisive",
+      "Strong-willed",
+      "Efficient and structured",
+      "Natural leaders"
+    ],
+    "weaknesses": [
+      "May be seen as domineering",
+      "Struggles with emotions",
+      "Can be impatient",
+      "May overlook feelings"
+    ],
+    "famousPeople": ["Steve Jobs", "Franklin D. Roosevelt", "Gordon Ramsay"]
+  },
+  "ISFJ": {
+    "type": "ISFJ",
+    "nickname": "The Defender",
+    "functionStack": ["Si", "Fe", "Ti", "Ne"],
+    "summary": "Loyal and practical, ISFJs are caretakers who quietly support others and work diligently behind the scenes.",
+    "strengths": [
+      "Reliable and responsible",
+      "Supportive",
+      "Detail-oriented",
+      "Loyal and considerate"
+    ],
+    "weaknesses": [
+      "Avoids confrontation",
+      "Can be self-sacrificing",
+      "Resistant to change",
+      "May struggle with assertiveness"
+    ],
+    "famousPeople": ["Mother Teresa", "Kate Middleton", "Beyoncé"]
+  },
+  "ISTJ": {
+    "type": "ISTJ",
+    "nickname": "The Logistician",
+    "functionStack": ["Si", "Te", "Fi", "Ne"],
+    "summary": "Responsible and dependable, ISTJs value tradition and structure, and they take pride in following through on their commitments.",
+    "strengths": [
+      "Dependable",
+      "Hardworking",
+      "Logical and practical",
+      "Organized"
+    ],
+    "weaknesses": [
+      "May resist change",
+      "Can be inflexible",
+      "Emotionally reserved",
+      "Too focused on rules"
+    ],
+    "famousPeople": ["Angela Merkel", "Warren Buffett", "Natalie Portman"]
+  },
+  "ESFJ": {
+    "type": "ESFJ",
+    "nickname": "The Consul",
+    "functionStack": ["Fe", "Si", "Ne", "Ti"],
+    "summary": "Warm and caring, ESFJs thrive in social situations and enjoy helping others feel included and valued.",
+    "strengths": [
+      "Friendly and sociable",
+      "Supportive",
+      "Detail-oriented",
+      "Community-focused"
+    ],
+    "weaknesses": [
+      "Sensitive to criticism",
+      "Needs approval",
+      "Avoids conflict",
+      "May struggle with abstract ideas"
+    ],
+    "famousPeople": ["Bill Clinton", "Jennifer Garner", "Tyra Banks"]
+  },
+  "ESTJ": {
+    "type": "ESTJ",
+    "nickname": "The Executive",
+    "functionStack": ["Te", "Si", "Ne", "Fi"],
+    "summary": "Efficient and organized, ESTJs are natural administrators who value order and enjoy taking charge in practical matters.",
+    "strengths": [
+      "Responsible and reliable",
+      "Decisive",
+      "Strong leadership",
+      "Value tradition"
+    ],
+    "weaknesses": [
+      "May seem controlling",
+      "Rigid or inflexible",
+      "Can be critical",
+      "Dislikes emotional expression"
+    ],
+    "famousPeople": ["Judge Judy", "Lyndon B. Johnson", "Michelle Obama"]
+  },
+  "ISFP": {
+    "type": "ISFP",
+    "nickname": "The Adventurer",
+    "functionStack": ["Fi", "Se", "Ni", "Te"],
+    "summary": "Gentle and artistic, ISFPs are driven by inner values and seek beauty and meaning in the world around them.",
+    "strengths": [
+      "Empathetic and warm",
+      "Artistic",
+      "Flexible and spontaneous",
+      "Tuned into senses"
+    ],
+    "weaknesses": [
+      "Avoids long-term planning",
+      "Can be overly private",
+      "Sensitive to criticism",
+      "May struggle with structure"
+    ],
+    "famousPeople": ["Bob Ross", "Britney Spears", "David Bowie"]
+  },
+  "ISTP": {
+    "type": "ISTP",
+    "nickname": "The Virtuoso",
+    "functionStack": ["Ti", "Se", "Ni", "Fe"],
+    "summary": "Bold and practical, ISTPs love hands-on work and thrive on solving real-world problems through exploration and experimentation.",
+    "strengths": [
+      "Independent and resourceful",
+      "Logical thinkers",
+      "Adaptable",
+      "Cool under pressure"
+    ],
+    "weaknesses": [
+      "Emotionally distant",
+      "Impulsive",
+      "May avoid long-term commitments",
+      "Dislikes routine tasks"
+    ],
+    "famousPeople": ["Clint Eastwood", "Bruce Lee", "Scarlett Johansson"]
+  },
+  "ESFP": {
+    "type": "ESFP",
+    "nickname": "The Entertainer",
+    "functionStack": ["Se", "Fi", "Te", "Ni"],
+    "summary": "Spontaneous and energetic, ESFPs live in the moment and love engaging with others in lively, meaningful ways.",
+    "strengths": [
+      "Fun-loving and energetic",
+      "Sociable and outgoing",
+      "Empathetic",
+      "Observant and present"
+    ],
+    "weaknesses": [
+      "Avoids planning",
+      "May seek approval",
+      "Easily bored",
+      "Can be impulsive"
+    ],
+    "famousPeople": ["Elton John", "Miley Cyrus", "Adele"]
+  },
+  "ESTP": {
+    "type": "ESTP",
+    "nickname": "The Dynamo",
+    "functionStack": ["Se", "Ti", "Fe", "Ni"],
+    "summary": "Energetic and action-oriented, ESTPs are natural risk-takers who love engaging with the world through direct experience.",
+    "strengths": [
+      "Bold and direct",
+      "Adaptable",
+      "Good in crisis",
+      "Hands-on problem solvers"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Can be blunt",
+      "Easily bored",
+      "May neglect long-term goals"
+    ],
+    "famousPeople": ["Ernest Hemingway", "Madonna", "Bruce Willis"]
+  }
+}
