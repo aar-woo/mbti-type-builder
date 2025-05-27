@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header.tsx";
-import TypesSelect from "./components/TypesSelect.tsx";
+import HomePage from "./pages/HomePage.tsx";
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
         <Header />
       </header>
       <main>
-        <TypesSelect />
+        <HomePage />
       </main>
     </div>
   );
