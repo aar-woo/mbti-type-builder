@@ -12,8 +12,8 @@ import { letterTheme } from "../../colors";
 const LetterCard = styled(Card)`
   display: flex;
   flex-direction: column;
-  width: 180px;
-  height: 150px;
+  width: 140px;
+  height: 110px;
   border: 1px solid gray;
 `;
 
@@ -21,6 +21,7 @@ const CardContentContainer = styled(CardContent)`
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid black;
+  padding: 12px 0;
 `;
 
 const LetterSpan = styled.span`
@@ -60,14 +61,14 @@ const LetterTypePiece = ({
             : undefined,
         }}
       >
-        <CardContentContainer sx={{ height: "66%" }}>
+        <CardContentContainer>
           <LetterSpan
             style={{ color: letterTheme.palette[letterInfo.dichotomy].main }}
           >
             {letterInfo.letter}
           </LetterSpan>
         </CardContentContainer>
-        <CardContentContainer sx={{ height: "33%" }}>
+        <CardContentContainer>
           <Box sx={{ display: "flex", flexDirection: "column" }}>
             <CardText sx={{ fontWeight: "bold" }}>{letterInfo.title}</CardText>
             <CardText>{letterInfo.subtext}</CardText>
