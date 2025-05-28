@@ -1,11 +1,10 @@
-import React from "react";
+import { styled, Typography } from "@mui/material";
+const HeaderText = styled(Typography)`
+  padding: 1rem;
+`;
 
 const Header = () => {
-  return (
-    <div>
-      <h1>MBTI TypeBuilder</h1>
-    </div>
-  );
+  return <HeaderText variant="h3">MBTI TypeBuilder</HeaderText>;
 };
 
 export default Header;
