@@ -6,31 +6,26 @@ const PersonalityTypeContainer = styled(Box)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
 `;
 
-const AttributeContainer = styled(Box)`
+const InfoContainer = styled(Box)`
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: center;
+  align-items: start;
+  justify-content: space-between;
+  width: 80%;
 `;
-const AttributeBox = styled(Box)`
+
+const InfoColumn = styled(Box)`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  width: 33%;
 `;
 
 const AttributeListItem = styled(ListItem)`
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-`;
-
-const FamousPeopleContainer = styled(Box)`
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -52,20 +47,20 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
       <Typography variant="body1" sx={{ marginBottom: "1rem" }}>
         {typeData.summary}
       </Typography>
-      <AttributeContainer>
-        <AttributeBox>
+      <InfoContainer>
+        <InfoColumn>
           <Typography variant="h5" sx={{ textDecoration: "underline" }}>
             Strengths
           </Typography>
-          <List sx={{ listStyleType: "disc" }}>
+          <List>
             {typeData.strengths.map((strength) => (
               <AttributeListItem key={strength}>
                 <Typography>- {strength}</Typography>
               </AttributeListItem>
             ))}
           </List>
-        </AttributeBox>
-        <AttributeBox>
+        </InfoColumn>
+        <InfoColumn>
           <Typography variant="h5" sx={{ textDecoration: "underline" }}>
             Weaknesses
           </Typography>
@@ -76,20 +71,20 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
               </AttributeListItem>
             ))}
           </List>
-        </AttributeBox>
-      </AttributeContainer>
-      <FamousPeopleContainer>
-        <Typography variant="h5" sx={{ textDecoration: "underline" }}>
-          Famous People
-        </Typography>
-        <List>
-          {typeData.famousPeople.map((person) => (
-            <AttributeListItem key={person}>
-              <Typography>- {person}</Typography>
-            </AttributeListItem>
-          ))}
-        </List>
-      </FamousPeopleContainer>
+        </InfoColumn>
+        <InfoColumn>
+          <Typography variant="h5" sx={{ textDecoration: "underline" }}>
+            Famous People
+          </Typography>
+          <List>
+            {typeData.famousPeople.map((person) => (
+              <AttributeListItem key={person}>
+                <Typography>- {person}</Typography>
+              </AttributeListItem>
+            ))}
+          </List>
+        </InfoColumn>
+      </InfoContainer>
     </PersonalityTypeContainer>
   );
 };
