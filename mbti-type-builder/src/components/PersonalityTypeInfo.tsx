@@ -10,7 +10,7 @@ const PersonalityTypeContainer = styled(Box)`
   margin-top: 1rem;
 `;
 
-const InfoContainer = styled(Box)`
+const InfoBodyContainer = styled(Box)`
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -32,6 +32,24 @@ const AttributeListItem = styled(ListItem)`
   justify-content: start;
 `;
 
+const InfoHeaderContainer = styled(Box)`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+`;
+
+const InfoHeaderTextContainer = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  width: 400px;
+`;
+
 type PersonalityTypeInfoProps = {
   type: PersonalityType;
 };
@@ -42,23 +60,22 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
   console.log(typeData.type.toLowerCase());
   return (
     <PersonalityTypeContainer>
-      <Box>
-        <Typography
-          variant="h4"
-          sx={{ textDecoration: "underline", margin: "1rem 0" }}
-        >
-          {typeData.nickname}
-        </Typography>
+      <InfoHeaderContainer>
         <img
           src={`/images/${typeData.type.toLowerCase()}-avatar.png`}
           style={{ width: "150px" }}
         />
-      </Box>
-      <Typography variant="body1" sx={{ marginBottom: "1rem" }}>
-        {typeData.summary}
-      </Typography>
-
-      <InfoContainer>
+        <InfoHeaderTextContainer>
+          <Typography
+            variant="h4"
+            sx={{ textDecoration: "underline", margin: "1rem 0" }}
+          >
+            {typeData.nickname}
+          </Typography>
+          <Typography variant="body1">{typeData.summary}</Typography>
+        </InfoHeaderTextContainer>
+      </InfoHeaderContainer>
+      <InfoBodyContainer>
         <InfoColumn>
           <Typography variant="h5" sx={{ textDecoration: "underline" }}>
             Strengths
@@ -95,7 +112,7 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
             ))}
           </List>
         </InfoColumn>
-      </InfoContainer>
+      </InfoBodyContainer>
     </PersonalityTypeContainer>
   );
 };
