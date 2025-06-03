@@ -5,16 +5,16 @@
     "functionStack": ["Ni", "Fe", "Ti", "Se"],
     "summary": "Deeply intuitive and empathetic, INFJs are quiet idealists who care deeply about helping others and creating meaningful change.",
     "strengths": [
-      "Visionary and insightful",
-      "Empathetic listeners",
-      "Strong moral compass",
-      "Strategic thinkers"
+      "Visionary and insightful - Possess an uncanny ability to see patterns and connections that others miss, often predicting outcomes and understanding complex situations before they unfold.",
+      "Empathetic listeners - Excel at deeply understanding others' emotions and perspectives, creating a safe space for meaningful conversations and emotional support.",
+      "Strong moral compass - Guided by deeply held values and principles, consistently making decisions that align with their ethical framework and personal integrity.",
+      "Strategic thinkers - Combine intuition with analytical skills to develop comprehensive, long-term plans while considering multiple perspectives and potential outcomes."
     ],
     "weaknesses": [
-      "Prone to burnout",
-      "May avoid conflict",
-      "Can be overly idealistic",
-      "Hard to open up"
+      "Prone to burnout - Often take on too much responsibility for others' well-being, leading to emotional and physical exhaustion from constant giving.",
+      "May avoid conflict - Tend to prioritize harmony over addressing issues directly, sometimes leading to unresolved tensions and internal stress.",
+      "Can be overly idealistic - Sometimes struggle with the gap between their vision of how things should be and reality, leading to disappointment or frustration.",
+      "Hard to open up - While deeply understanding of others, they often keep their own thoughts and feelings private, making it difficult for others to support them. "
     ],
     "famousPeople": ["Carl Jung", "Gandhi", "Taylor Swift"]
   },
@@ -24,16 +24,16 @@
     "functionStack": ["Fi", "Ne", "Si", "Te"],
     "summary": "Idealistic and imaginative, INFPs are deeply in touch with their values and seek personal meaning in everything they do.",
     "strengths": [
-      "Compassionate and loyal",
-      "Creative and expressive",
-      "Value-driven",
-      "Adaptable thinkers"
+      "Compassionate and loyal - Show deep empathy and unwavering support for those they care about, often going above and beyond to help others.",
+      "Creative and expressive - Possess rich inner worlds and unique perspectives, often expressing themselves through art, writing, or other creative outlets.",
+      "Value-driven - Make decisions based on personal values and authenticity, maintaining strong moral principles in all aspects of life.",
+      "Adaptable thinkers - Can see multiple perspectives and possibilities, allowing them to find creative solutions to complex problems."
     ],
     "weaknesses": [
-      "Can be overly sensitive",
-      "Conflict-averse",
-      "May struggle with practical details",
-      "Tends to procrastinate"
+      "Can be overly sensitive - Take criticism and negative feedback deeply personally, sometimes becoming overwhelmed by emotional responses.",
+      "Conflict-averse - Tend to avoid confrontation and difficult conversations, which can lead to unresolved issues and internal stress.",
+      "May struggle with practical details - Often focus on big-picture ideas and possibilities, sometimes neglecting day-to-day responsibilities and logistics.",
+      "Tends to procrastinate - Can get lost in their thoughts and creative pursuits, sometimes delaying important tasks until the last minute."
     ],
     "famousPeople": ["J.R.R. Tolkien", "Princess Diana", "Audrey Hepburn"]
   },
@@ -43,16 +43,16 @@
     "functionStack": ["Ne", "Fi", "Te", "Si"],
     "summary": "Energetic and enthusiastic, ENFPs love exploring possibilities and connecting with people through shared ideas and passions.",
     "strengths": [
-      "Creative and spontaneous",
-      "Charismatic",
-      "Open-minded",
-      "Motivational"
+      "Creative and spontaneous - Generate innovative ideas and solutions, bringing energy and enthusiasm to new projects and possibilities.",
+      "Charismatic - Naturally draw people in with their warmth, enthusiasm, and ability to make others feel valued and understood.",
+      "Open-minded - Embrace different perspectives and ideas, creating an inclusive environment where everyone feels welcome to share.",
+      "Motivational - Inspire others through their passion and optimism, helping people see possibilities and potential in themselves."
     ],
     "weaknesses": [
-      "May lack follow-through",
-      "Gets bored easily",
-      "Can be overly idealistic",
-      "May avoid routine"
+      "May lack follow-through - Get excited about new projects but sometimes struggle to maintain focus and complete long-term commitments.",
+      "Gets bored easily - Need constant stimulation and variety, which can lead to jumping between projects without seeing them through.",
+      "Can be overly idealistic - Sometimes set unrealistic expectations for themselves and others, leading to disappointment when reality doesn't match their vision.",
+      "May avoid routine - Struggle with repetitive tasks and structured environments, preferring flexibility and spontaneity in their daily lives."
     ],
     "famousPeople": ["Robin Williams", "Will Smith", "Mark Twain"]
   },
@@ -62,16 +62,16 @@
     "functionStack": ["Fe", "Ni", "Se", "Ti"],
     "summary": "Natural-born leaders, ENFJs are driven by their vision of a better world and excel at bringing people together toward a common goal.",
     "strengths": [
-      "Charismatic and inspiring",
-      "Empathetic",
-      "Organized and responsible",
-      "Visionary"
+      "Charismatic and inspiring - Naturally motivate and energize others, creating a positive atmosphere where people feel empowered to achieve their goals.",
+      "Empathetic - Deeply understand others' emotions and needs, using this insight to provide meaningful support and guidance.",
+      "Organized and responsible - Excel at planning and executing projects while ensuring everyone's needs are met and goals are achieved.",
+      "Visionary - See the potential in people and situations, creating compelling visions that inspire others to work together."
     ],
     "weaknesses": [
-      "Takes on too much",
-      "May be overly self-sacrificing",
-      "Struggles with boundaries",
-      "Can be controlling under stress"
+      "Takes on too much - Often prioritize others' needs over their own, leading to burnout and neglecting self-care.",
+      "May be overly self-sacrificing - Put others' happiness and well-being before their own, sometimes at the expense of their personal needs.",
+      "Struggles with boundaries - Find it difficult to say no to requests for help, even when it's not in their best interest.",
+      "Can be controlling under stress - When overwhelmed, may try to micromanage situations and people to maintain order and harmony."
     ],
     "famousPeople": ["Barack Obama", "Oprah Winfrey", "Martin Luther King Jr."]
   },
@@ -81,16 +81,16 @@
     "functionStack": ["Ni", "Te", "Fi", "Se"],
     "summary": "Strategic and independent, INTJs are natural planners who thrive on setting goals and executing long-term visions.",
     "strengths": [
-      "Analytical and decisive",
-      "Independent thinkers",
-      "Efficient and organized",
-      "Future-focused"
+      "Analytical and decisive - Excel at breaking down complex problems and making well-reasoned decisions based on thorough analysis.",
+      "Independent thinkers - Trust their own judgment and reasoning, often developing unique perspectives and innovative solutions.",
+      "Efficient and organized - Create and implement systematic approaches to achieve goals, maximizing productivity and minimizing waste.",
+      "Future-focused - Naturally anticipate trends and possibilities, developing long-term strategies to achieve their vision."
     ],
     "weaknesses": [
-      "Can be overly critical",
-      "May struggle with emotions",
-      "Dislikes inefficiency",
-      "Impatient with incompetence"
+      "Can be overly critical - Set extremely high standards for themselves and others, sometimes coming across as harsh or demanding.",
+      "May struggle with emotions - Find it challenging to process and express feelings, sometimes appearing cold or detached.",
+      "Dislikes inefficiency - Become frustrated with processes or people that don't meet their standards of effectiveness.",
+      "Impatient with incompetence - Have little tolerance for repeated mistakes or lack of effort, which can strain relationships."
     ],
     "famousPeople": ["Elon Musk", "Isaac Newton", "Jane Austen"]
   },
@@ -100,16 +100,16 @@
     "functionStack": ["Ti", "Ne", "Si", "Fe"],
     "summary": "Innovative and curious, INTPs are driven by the pursuit of knowledge and enjoy exploring complex theories and ideas.",
     "strengths": [
-      "Highly analytical",
-      "Independent problem-solvers",
-      "Imaginative thinkers",
-      "Open-minded"
+      "Highly analytical - Excel at dissecting complex problems and finding logical solutions through systematic thinking.",
+      "Independent problem-solvers - Thrive on solving challenging problems through their own research and experimentation.",
+      "Imaginative thinkers - Generate innovative ideas and theories, often seeing connections that others miss.",
+      "Open-minded - Willing to consider new perspectives and ideas, constantly seeking to expand their understanding."
     ],
     "weaknesses": [
-      "Can be emotionally distant",
-      "May overanalyze",
-      "Struggles with structure",
-      "Dislikes small talk"
+      "Can be emotionally distant - Sometimes struggle to connect with others' feelings and may appear detached or unresponsive.",
+      "May overanalyze - Tend to get caught in endless analysis and theorizing, sometimes preventing action or decision-making.",
+      "Struggles with structure - Find it challenging to maintain consistent routines and may neglect practical responsibilities.",
+      "Dislikes small talk - Prefer deep, meaningful conversations and may appear disinterested in casual social interactions."
     ],
     "famousPeople": ["Albert Einstein", "Bill Gates", "Tina Fey"]
   },
@@ -119,16 +119,16 @@
     "functionStack": ["Ne", "Ti", "Fe", "Si"],
     "summary": "Quick-witted and curious, ENTPs enjoy intellectual challenges, debates, and exploring new ideas and innovations.",
     "strengths": [
-      "Clever and inventive",
-      "Energetic",
-      "Good communicators",
-      "Adaptive thinkers"
+      "Clever and inventive - Generate creative solutions and ideas, often thinking outside the box to solve complex problems.",
+      "Energetic - Bring enthusiasm and dynamism to projects and discussions, inspiring others with their passion.",
+      "Good communicators - Excel at explaining complex ideas and engaging others in meaningful discussions.",
+      "Adaptive thinkers - Quickly adjust to new situations and information, finding innovative ways to overcome challenges."
     ],
     "weaknesses": [
-      "Easily bored",
-      "Can be argumentative",
-      "Dislikes routine",
-      "May lack follow-through"
+      "Easily bored - Need constant mental stimulation and may lose interest in projects once the initial challenge is solved.",
+      "Can be argumentative - Enjoy intellectual debates but may push too hard or come across as confrontational.",
+      "Dislikes routine - Struggle with repetitive tasks and structured environments, preferring variety and spontaneity.",
+      "May lack follow-through - Get excited about new ideas but sometimes struggle to complete long-term projects."
     ],
     "famousPeople": ["Mark Twain", "Tom Hanks", "Richard Feynman"]
   },
@@ -138,16 +138,16 @@
     "functionStack": ["Te", "Ni", "Se", "Fi"],
     "summary": "Bold and strategic, ENTJs are natural leaders who enjoy organizing people and projects to achieve ambitious goals.",
     "strengths": [
-      "Confident and decisive",
-      "Strong-willed",
-      "Efficient and structured",
-      "Natural leaders"
+      "Confident and decisive - Make bold decisions quickly and effectively, inspiring confidence in their leadership.",
+      "Strong-willed - Demonstrate determination and persistence in achieving their goals, overcoming obstacles with resilience.",
+      "Efficient and structured - Create and implement effective systems and processes to maximize productivity.",
+      "Natural leaders - Excel at organizing people and resources to achieve ambitious objectives."
     ],
     "weaknesses": [
-      "May be seen as domineering",
-      "Struggles with emotions",
-      "Can be impatient",
-      "May overlook feelings"
+      "May be seen as domineering - Sometimes come across as too direct or controlling in their pursuit of goals.",
+      "Struggles with emotions - Find it challenging to process and express feelings, which can affect relationships.",
+      "Can be impatient - Expect high performance from others and may become frustrated with slower progress.",
+      "May overlook feelings - Focus so much on goals and efficiency that they sometimes neglect emotional needs."
     ],
     "famousPeople": ["Steve Jobs", "Franklin D. Roosevelt", "Gordon Ramsay"]
   },
@@ -157,16 +157,16 @@
     "functionStack": ["Si", "Fe", "Ti", "Ne"],
     "summary": "Loyal and practical, ISFJs are caretakers who quietly support others and work diligently behind the scenes.",
     "strengths": [
-      "Reliable and responsible",
-      "Supportive",
-      "Detail-oriented",
-      "Loyal and considerate"
+      "Reliable and responsible - Consistently follow through on commitments and can be counted on to deliver quality work.",
+      "Supportive - Provide practical help and emotional support to those in need, often anticipating others' needs.",
+      "Detail-oriented - Excel at noticing and managing important details that others might miss.",
+      "Loyal and considerate - Show deep commitment to relationships and carefully consider others' feelings."
     ],
     "weaknesses": [
-      "Avoids confrontation",
-      "Can be self-sacrificing",
-      "Resistant to change",
-      "May struggle with assertiveness"
+      "Avoids confrontation - Tend to keep the peace even when addressing issues would be beneficial.",
+      "Can be self-sacrificing - Often put others' needs before their own, leading to burnout and resentment.",
+      "Resistant to change - Prefer familiar routines and may struggle with adapting to new situations.",
+      "May struggle with assertiveness - Find it difficult to stand up for their own needs and boundaries."
     ],
     "famousPeople": ["Mother Teresa", "Kate Middleton", "Beyoncé"]
   },
@@ -176,16 +176,16 @@
     "functionStack": ["Si", "Te", "Fi", "Ne"],
     "summary": "Responsible and dependable, ISTJs value tradition and structure, and they take pride in following through on their commitments.",
     "strengths": [
-      "Dependable",
-      "Hardworking",
-      "Logical and practical",
-      "Organized"
+      "Dependable - Consistently deliver on promises and can be counted on to complete tasks with precision.",
+      "Hardworking - Show strong dedication to their responsibilities and take pride in doing things right.",
+      "Logical and practical - Make decisions based on facts and experience, ensuring reliable outcomes.",
+      "Organized - Maintain clear systems and structures to ensure efficiency and reliability."
     ],
     "weaknesses": [
-      "May resist change",
-      "Can be inflexible",
-      "Emotionally reserved",
-      "Too focused on rules"
+      "May resist change - Prefer proven methods and may be hesitant to try new approaches.",
+      "Can be inflexible - Sometimes struggle to adapt when situations require different solutions.",
+      "Emotionally reserved - Find it challenging to express feelings and may appear distant.",
+      "Too focused on rules - May prioritize procedures over people's needs in some situations."
     ],
     "famousPeople": ["Angela Merkel", "Warren Buffett", "Natalie Portman"]
   },
@@ -195,16 +195,16 @@
     "functionStack": ["Fe", "Si", "Ne", "Ti"],
     "summary": "Warm and caring, ESFJs thrive in social situations and enjoy helping others feel included and valued.",
     "strengths": [
-      "Friendly and sociable",
-      "Supportive",
-      "Detail-oriented",
-      "Community-focused"
+      "Friendly and sociable - Create warm, welcoming environments where people feel valued and included.",
+      "Supportive - Actively help others succeed and feel good about themselves.",
+      "Detail-oriented - Excel at managing practical matters and ensuring everything runs smoothly.",
+      "Community-focused - Build strong relationships and create harmony in their social circles."
     ],
     "weaknesses": [
-      "Sensitive to criticism",
-      "Needs approval",
-      "Avoids conflict",
-      "May struggle with abstract ideas"
+      "Sensitive to criticism - Take negative feedback personally and may become defensive.",
+      "Needs approval - Rely heavily on others' validation and may struggle with self-doubt.",
+      "Avoids conflict - Prioritize harmony over addressing important issues directly.",
+      "May struggle with abstract ideas - Prefer concrete, practical matters over theoretical concepts."
     ],
     "famousPeople": ["Bill Clinton", "Jennifer Garner", "Tyra Banks"]
   },
@@ -214,16 +214,16 @@
     "functionStack": ["Te", "Si", "Ne", "Fi"],
     "summary": "Efficient and organized, ESTJs are natural administrators who value order and enjoy taking charge in practical matters.",
     "strengths": [
-      "Responsible and reliable",
-      "Decisive",
-      "Strong leadership",
-      "Value tradition"
+      "Responsible and reliable - Consistently deliver on commitments and maintain high standards.",
+      "Decisive - Make clear, practical decisions quickly and confidently.",
+      "Strong leadership - Excel at organizing people and resources to achieve goals.",
+      "Value tradition - Maintain important customs and standards that have proven effective."
     ],
     "weaknesses": [
-      "May seem controlling",
-      "Rigid or inflexible",
-      "Can be critical",
-      "Dislikes emotional expression"
+      "May seem controlling - Sometimes come across as too directive or rigid in their approach.",
+      "Rigid or inflexible - Can be resistant to change and new ideas.",
+      "Can be critical - Set high standards that may be difficult for others to meet.",
+      "Dislikes emotional expression - May struggle to understand or respond to emotional needs."
     ],
     "famousPeople": ["Judge Judy", "Lyndon B. Johnson", "Michelle Obama"]
   },
@@ -233,16 +233,16 @@
     "functionStack": ["Fi", "Se", "Ni", "Te"],
     "summary": "Gentle and artistic, ISFPs are driven by inner values and seek beauty and meaning in the world around them.",
     "strengths": [
-      "Empathetic and warm",
-      "Artistic",
-      "Flexible and spontaneous",
-      "Tuned into senses"
+      "Empathetic and warm - Show deep understanding and care for others' feelings.",
+      "Artistic - Express themselves creatively and appreciate beauty in various forms.",
+      "Flexible and spontaneous - Adapt well to changing situations and enjoy living in the moment.",
+      "Tuned into senses - Notice and appreciate sensory details that others might miss."
     ],
     "weaknesses": [
-      "Avoids long-term planning",
-      "Can be overly private",
-      "Sensitive to criticism",
-      "May struggle with structure"
+      "Avoids long-term planning - Prefer to take things as they come rather than making detailed plans.",
+      "Can be overly private - Keep their thoughts and feelings to themselves, making it hard for others to know them.",
+      "Sensitive to criticism - Take negative feedback personally and may become defensive.",
+      "May struggle with structure - Find it challenging to maintain consistent routines."
     ],
     "famousPeople": ["Bob Ross", "Britney Spears", "David Bowie"]
   },
@@ -252,16 +252,16 @@
     "functionStack": ["Ti", "Se", "Ni", "Fe"],
     "summary": "Bold and practical, ISTPs love hands-on work and thrive on solving real-world problems through exploration and experimentation.",
     "strengths": [
-      "Independent and resourceful",
-      "Logical thinkers",
-      "Adaptable",
-      "Cool under pressure"
+      "Independent and resourceful - Solve problems creatively using available resources.",
+      "Logical thinkers - Analyze situations objectively and find practical solutions.",
+      "Adaptable - Quickly adjust to new situations and changing circumstances.",
+      "Cool under pressure - Remain calm and effective in high-stress situations."
     ],
     "weaknesses": [
-      "Emotionally distant",
-      "Impulsive",
-      "May avoid long-term commitments",
-      "Dislikes routine tasks"
+      "Emotionally distant - May struggle to connect with others' feelings.",
+      "Impulsive - Sometimes act without considering long-term consequences.",
+      "May avoid long-term commitments - Prefer to keep options open and maintain flexibility.",
+      "Dislikes routine tasks - Need variety and hands-on challenges to stay engaged."
     ],
     "famousPeople": ["Clint Eastwood", "Bruce Lee", "Scarlett Johansson"]
   },
@@ -271,16 +271,16 @@
     "functionStack": ["Se", "Fi", "Te", "Ni"],
     "summary": "Spontaneous and energetic, ESFPs live in the moment and love engaging with others in lively, meaningful ways.",
     "strengths": [
-      "Fun-loving and energetic",
-      "Sociable and outgoing",
-      "Empathetic",
-      "Observant and present"
+      "Fun-loving and energetic - Bring joy and enthusiasm to social situations.",
+      "Sociable and outgoing - Easily connect with others and create positive atmospheres.",
+      "Empathetic - Show genuine care and understanding for others' feelings.",
+      "Observant and present - Notice and respond to the needs of those around them."
     ],
     "weaknesses": [
-      "Avoids planning",
-      "May seek approval",
-      "Easily bored",
-      "Can be impulsive"
+      "Avoids planning - Prefer to live spontaneously and may struggle with long-term goals.",
+      "May seek approval - Rely heavily on others' validation and feedback.",
+      "Easily bored - Need constant stimulation and may lose interest quickly.",
+      "Can be impulsive - Sometimes act without considering consequences."
     ],
     "famousPeople": ["Elton John", "Miley Cyrus", "Adele"]
   },
@@ -290,16 +290,16 @@
     "functionStack": ["Se", "Ti", "Fe", "Ni"],
     "summary": "Energetic and action-oriented, ESTPs are natural risk-takers who love engaging with the world through direct experience.",
     "strengths": [
-      "Bold and direct",
-      "Adaptable",
-      "Good in crisis",
-      "Hands-on problem solvers"
+      "Bold and direct - Take decisive action and communicate clearly.",
+      "Adaptable - Quickly adjust to changing situations and find practical solutions.",
+      "Good in crisis - Remain calm and effective under pressure.",
+      "Hands-on problem solvers - Excel at fixing immediate issues through practical action."
     ],
     "weaknesses": [
-      "Impulsive",
-      "Can be blunt",
-      "Easily bored",
-      "May neglect long-term goals"
+      "Impulsive - Sometimes act without considering long-term consequences.",
+      "Can be blunt - May come across as too direct or insensitive.",
+      "Easily bored - Need constant stimulation and action to stay engaged.",
+      "May neglect long-term goals - Focus on immediate results over future planning."
     ],
     "famousPeople": ["Ernest Hemingway", "Madonna", "Bruce Willis"]
   }

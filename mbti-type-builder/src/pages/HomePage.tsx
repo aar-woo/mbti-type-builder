@@ -41,7 +41,14 @@ const HomePage = () => {
   }, [dichotomies]);
 
   return (
-    <Box>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        padding: "1rem",
+      }}
+    >
       <TypeAggregate dichotomies={dichotomies} />
       <TypesSelect
         dichotomies={dichotomies}

@@ -8,7 +8,6 @@ const TypeAggregateContainer = styled(Box)`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1rem;
   font-size: 4rem;
   gap: 4px;
 `;

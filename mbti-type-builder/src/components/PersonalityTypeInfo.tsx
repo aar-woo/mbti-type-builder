@@ -1,6 +1,7 @@
 import { Box, List, ListItem, styled, Typography } from "@mui/material";
 import mbtiTypesData from "../mbti_types_data.json";
 import { PersonalityType } from "../types/personalityTypes";
+import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
@@ -8,6 +9,11 @@ const PersonalityTypeContainer = styled(Box)`
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
+  width: 50%;
+  padding: 1rem;
+  background-color: lightgrey;
+  border-radius: 1rem;
+  box-shadow: 12px 12px 12px -8px rgba(0, 0, 0, 0.75);
 `;
 
 const InfoBodyContainer = styled(Box)`
@@ -75,44 +81,20 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
       </InfoHeaderContainer>
-      <InfoBodyContainer>
-        <InfoColumn>
-          <Typography variant="h5" sx={{ textDecoration: "underline" }}>
-            Strengths
-          </Typography>
-          <List>
-            {typeData.strengths.map((strength) => (
-              <AttributeListItem key={strength}>
-                <Typography>- {strength}</Typography>
-              </AttributeListItem>
-            ))}
-          </List>
-        </InfoColumn>
-        <InfoColumn>
-          <Typography variant="h5" sx={{ textDecoration: "underline" }}>
-            Challenges
-          </Typography>
-          <List>
-            {typeData.weaknesses.map((weakness) => (
-              <AttributeListItem key={weakness}>
-                <Typography>- {weakness}</Typography>
-              </AttributeListItem>
-            ))}
-          </List>
-        </InfoColumn>
-        <InfoColumn>
-          <Typography variant="h5" sx={{ textDecoration: "underline" }}>
-            Famous People
-          </Typography>
-          <List>
-            {typeData.famousPeople.map((person) => (
-              <AttributeListItem key={person}>
-                <Typography>- {person}</Typography>
-              </AttributeListItem>
-            ))}
-          </List>
-        </InfoColumn>
-      </InfoBodyContainer>
+      <Box>
+        <PersonalityTypeInfoAccordion
+          title="Strengths"
+          details={typeData.strengths}
+        />
+        <PersonalityTypeInfoAccordion
+          title="Challenges"
+          details={typeData.weaknesses}
+        />
+        <PersonalityTypeInfoAccordion
+          title="Famous People"
+          details={typeData.famousPeople}
+        />
+      </Box>
     </PersonalityTypeContainer>
   );
 };
