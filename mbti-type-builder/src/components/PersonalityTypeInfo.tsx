@@ -38,15 +38,26 @@ type PersonalityTypeInfoProps = {
 
 const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
+
+  console.log(typeData.type.toLowerCase());
   return (
     <PersonalityTypeContainer>
-      <Typography variant="h5">{typeData.type}</Typography>
-      <Typography variant="h4" sx={{ textDecoration: "underline" }}>
-        {typeData.nickname}
-      </Typography>
+      <Box>
+        <Typography
+          variant="h4"
+          sx={{ textDecoration: "underline", margin: "1rem 0" }}
+        >
+          {typeData.nickname}
+        </Typography>
+        <img
+          src={`/images/${typeData.type.toLowerCase()}-avatar.png`}
+          style={{ width: "150px" }}
+        />
+      </Box>
       <Typography variant="body1" sx={{ marginBottom: "1rem" }}>
         {typeData.summary}
       </Typography>
+
       <InfoContainer>
         <InfoColumn>
           <Typography variant="h5" sx={{ textDecoration: "underline" }}>
@@ -62,7 +73,7 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
         </InfoColumn>
         <InfoColumn>
           <Typography variant="h5" sx={{ textDecoration: "underline" }}>
-            Weaknesses
+            Challenges
           </Typography>
           <List>
             {typeData.weaknesses.map((weakness) => (
