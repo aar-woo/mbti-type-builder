@@ -1,12 +1,14 @@
 import LetterTypePiece from "./LetterType/LetterTypePiece";
 import LetterType, {
   Dichotomy,
-  LETTER_TYPES,
+  LetterDichotomies,
   letterInfo,
   LetterTypeDichotomies,
 } from "../types/letterTypes";
 import styled from "@emotion/styled";
 import { Box } from "@mui/material";
+import HeightIcon from "@mui/icons-material/Height";
+import { letterTheme } from "../colors";
 
 const LettersContainer = styled(Box)`
   display: flex;
@@ -18,7 +20,8 @@ const LettersContainer = styled(Box)`
 const LetterRow = styled(Box)`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.2rem;
 `;
 
 type TypesSelectProps = {
@@ -29,55 +32,21 @@ type TypesSelectProps = {
 const TypesSelect = ({ dichotomies, onLetterPieceClick }: TypesSelectProps) => {
   return (
     <LettersContainer>
-      <LetterRow>
-        <LetterTypePiece
-          letterInfo={letterInfo.I}
-          isSelected={dichotomies.energy === LETTER_TYPES.I}
-          handleClick={onLetterPieceClick}
-        />
-        <LetterTypePiece
-          letterInfo={letterInfo.E}
-          isSelected={dichotomies.energy === LETTER_TYPES.E}
-          handleClick={onLetterPieceClick}
-        />
-      </LetterRow>
-      <LetterRow>
-        <LetterTypePiece
-          letterInfo={letterInfo.N}
-          isSelected={dichotomies.information === LETTER_TYPES.N}
-          handleClick={onLetterPieceClick}
-        />
-        <LetterTypePiece
-          letterInfo={letterInfo.S}
-          isSelected={dichotomies.information === LETTER_TYPES.S}
-          handleClick={onLetterPieceClick}
-        />
-      </LetterRow>
-
-      <LetterRow>
-        <LetterTypePiece
-          letterInfo={letterInfo.T}
-          isSelected={dichotomies.decision === LETTER_TYPES.T}
-          handleClick={onLetterPieceClick}
-        />
-        <LetterTypePiece
-          letterInfo={letterInfo.F}
-          isSelected={dichotomies.decision === LETTER_TYPES.F}
-          handleClick={onLetterPieceClick}
-        />
-      </LetterRow>
-      <LetterRow>
-        <LetterTypePiece
-          letterInfo={letterInfo.J}
-          isSelected={dichotomies.orientation === LETTER_TYPES.J}
-          handleClick={onLetterPieceClick}
-        />
-        <LetterTypePiece
-          letterInfo={letterInfo.P}
-          isSelected={dichotomies.orientation === LETTER_TYPES.P}
-          handleClick={onLetterPieceClick}
-        />
-      </LetterRow>
+      {Object.entries(LetterDichotomies).map(([dichotomy, letters]) => (
+        <LetterRow>
+          <LetterTypePiece
+            letterInfo={letterInfo[letters[0]]}
+            isSelected={dichotomies[dichotomy as Dichotomy] === letters[0]}
+            handleClick={onLetterPieceClick}
+          />
+          <HeightIcon fontSize="small" sx={{ color: "black" }} />
+          <LetterTypePiece
+            letterInfo={letterInfo[letters[1]]}
+            isSelected={dichotomies[dichotomy as Dichotomy] === letters[1]}
+            handleClick={onLetterPieceClick}
+          />
+        </LetterRow>
+      ))}
     </LettersContainer>
   );
 };

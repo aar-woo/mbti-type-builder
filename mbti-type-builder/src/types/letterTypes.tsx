@@ -16,6 +16,23 @@ export const DICHOTOMIES = {
   orientation: "orientation",
 } as const;
 
+export type LetterType = keyof typeof LETTER_TYPES;
+export type Dichotomy = keyof typeof DICHOTOMIES;
+
+export type LetterTypeDichotomies = {
+  [DICHOTOMIES.energy]: Extract<LetterType, "I" | "E">;
+  [DICHOTOMIES.information]: Extract<LetterType, "N" | "S">;
+  [DICHOTOMIES.decision]: Extract<LetterType, "T" | "F">;
+  [DICHOTOMIES.orientation]: Extract<LetterType, "J" | "P">;
+};
+
+export const LetterDichotomies: Record<Dichotomy, [LetterType, LetterType]> = {
+  [DICHOTOMIES.energy]: [LETTER_TYPES.I, LETTER_TYPES.E],
+  [DICHOTOMIES.information]: [LETTER_TYPES.N, LETTER_TYPES.S],
+  [DICHOTOMIES.decision]: [LETTER_TYPES.T, LETTER_TYPES.F],
+  [DICHOTOMIES.orientation]: [LETTER_TYPES.J, LETTER_TYPES.P],
+};
+
 export type LetterInfo = {
   letter: LetterType;
   title: string;
@@ -73,21 +90,5 @@ export const letterInfo: Record<LetterType, LetterInfo> = {
     subtext: "Flexible approach.",
   },
 };
-
-export type LetterTypeDichotomies = {
-  [DICHOTOMIES.energy]: typeof LETTER_TYPES.I | typeof LETTER_TYPES.E | null;
-  [DICHOTOMIES.information]:
-    | typeof LETTER_TYPES.N
-    | typeof LETTER_TYPES.S
-    | null;
-  [DICHOTOMIES.decision]: typeof LETTER_TYPES.T | typeof LETTER_TYPES.F | null;
-  [DICHOTOMIES.orientation]:
-    | typeof LETTER_TYPES.J
-    | typeof LETTER_TYPES.P
-    | null;
-};
-
-export type Dichotomy = keyof typeof DICHOTOMIES;
-export type LetterType = keyof typeof LETTER_TYPES;
 
 export default LetterType;
