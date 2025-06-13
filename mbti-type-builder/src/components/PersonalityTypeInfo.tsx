@@ -1,10 +1,13 @@
-import { Box, List, ListItem, styled, Typography } from "@mui/material";
+import { Box, Button, List, ListItem, styled, Typography } from "@mui/material";
 import mbtiTypesData from "../mbti_types_data.json";
 import { PersonalityType } from "../types/personalityTypes";
 import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
+import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
+import CompareIcon from "@mui/icons-material/Compare";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
@@ -56,6 +59,13 @@ const InfoHeaderTextContainer = styled(Box)`
   width: 400px;
 `;
 
+const CompareButton = styled(Button)`
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+`;
+
 type PersonalityTypeInfoProps = {
   type: PersonalityType;
 };
@@ -80,6 +90,13 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
           </Typography>
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
+        <CompareButton
+          variant="contained"
+          color="primary"
+          startIcon={<CompareIcon />}
+        >
+          Compare
+        </CompareButton>
       </InfoHeaderContainer>
       <Box>
         <PersonalityTypeInfoAccordion
