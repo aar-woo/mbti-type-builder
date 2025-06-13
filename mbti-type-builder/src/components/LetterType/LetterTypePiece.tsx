@@ -6,8 +6,11 @@ import {
   Typography,
   Box,
   CardActionArea,
+  Tooltip,
+  TooltipProps,
 } from "@mui/material";
 import { letterTheme } from "../../colors";
+import { motion } from "framer-motion";
 
 const LetterCard = styled(Card)`
   display: flex;
@@ -34,48 +37,89 @@ const CardText = styled(Typography)`
   font-size: 0.8rem;
 `;
 
+const TooltipContent = styled(Box)({
+  "& .tooltip-title": {
+    fontWeight: 600,
+    fontSize: "1rem",
+    marginBottom: "4px",
+    color: "black",
+  },
+  "& .tooltip-subtext": {
+    fontSize: "0.875rem",
+    color: "rgba(0, 0, 0, 0.6)",
+  },
+});
 type LetterTypePieceProps = {
   letterInfo: LetterInfo;
   isSelected: boolean;
   handleClick: (dichotomy: Dichotomy, letter: LetterType) => void;
+  tooltipPlacement?: TooltipProps["placement"];
 };
 
 const LetterTypePiece = ({
   letterInfo,
   isSelected,
   handleClick,
+  tooltipPlacement = "top",
 }: LetterTypePieceProps) => {
   return (
-    <CardActionArea
-      onClick={() => {
-        handleClick(letterInfo.dichotomy, letterInfo.letter);
+    <Tooltip
+      placement={tooltipPlacement}
+      enterDelay={800}
+      title={
+        <TooltipContent>
+          <Typography className="tooltip-title">{letterInfo.title}</Typography>
+          <Typography className="tooltip-subtext">{letterInfo.info}</Typography>
+        </TooltipContent>
+      }
+      slotProps={{
+        tooltip: {
+          sx: {
+            backgroundColor: "white",
+            padding: "12px",
+            borderRadius: "8px",
+            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.15)",
+          },
+        },
       }}
     >
-      <LetterCard
-        style={{
-          borderColor: isSelected
-            ? letterTheme.palette[letterInfo.dichotomy].main
-            : undefined,
-          backgroundColor: isSelected
-            ? letterTheme.palette[letterInfo.dichotomy].light
-            : undefined,
-        }}
-      >
-        <CardContentContainer>
-          <LetterSpan
-            style={{ color: letterTheme.palette[letterInfo.dichotomy].main }}
+      <motion.div whileHover={{ scale: 1.07 }}>
+        <CardActionArea
+          onClick={() => {
+            handleClick(letterInfo.dichotomy, letterInfo.letter);
+          }}
+        >
+          <LetterCard
+            style={{
+              borderColor: isSelected
+                ? letterTheme.palette[letterInfo.dichotomy].main
+                : undefined,
+              backgroundColor: isSelected
+                ? letterTheme.palette[letterInfo.dichotomy].light
+                : undefined,
+            }}
           >
-            {letterInfo.letter}
-          </LetterSpan>
-        </CardContentContainer>
-        <CardContentContainer>
-          <Box sx={{ display: "flex", flexDirection: "column" }}>
-            <CardText sx={{ fontWeight: "bold" }}>{letterInfo.title}</CardText>
-            <CardText>{letterInfo.subtext}</CardText>
-          </Box>
-        </CardContentContainer>
-      </LetterCard>
-    </CardActionArea>
+            <CardContentContainer>
+              <LetterSpan
+                style={{
+                  color: letterTheme.palette[letterInfo.dichotomy].main,
+                }}
+              >
+                {letterInfo.letter}
+              </LetterSpan>
+            </CardContentContainer>
+            <CardContentContainer>
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <CardText sx={{ fontWeight: "bold" }}>
+                  {letterInfo.title}
+                </CardText>
+                <CardText>{letterInfo.subtext}</CardText>
+              </Box>
+            </CardContentContainer>
+          </LetterCard>
+        </CardActionArea>
+      </motion.div>
+    </Tooltip>
   );
 };
 
