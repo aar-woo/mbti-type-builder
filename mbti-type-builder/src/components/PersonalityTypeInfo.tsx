@@ -2,8 +2,9 @@ import { Box, Button, List, ListItem, styled, Typography } from "@mui/material";
 import mbtiTypesData from "../mbti_types_data.json";
 import { PersonalityType } from "../types/personalityTypes";
 import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
-import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 import CompareIcon from "@mui/icons-material/Compare";
+import { useState } from "react";
+import CompareTypeDialog from "./CompareTypeDialog";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
@@ -72,6 +73,7 @@ type PersonalityTypeInfoProps = {
 
 const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
+  const [compareModalOpen, setCompareModalOpen] = useState<boolean>(false);
 
   console.log(typeData.type.toLowerCase());
   return (
@@ -94,6 +96,7 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
           variant="contained"
           color="primary"
           startIcon={<CompareIcon />}
+          onClick={() => setCompareModalOpen((prev) => !prev)}
         >
           Compare
         </CompareButton>
@@ -112,6 +115,11 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
           details={typeData.famousPeople}
         />
       </Box>
+      <CompareTypeDialog
+        isOpen={compareModalOpen}
+        initialType={type}
+        onClose={() => setCompareModalOpen(false)}
+      />
     </PersonalityTypeContainer>
   );
 };
