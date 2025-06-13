@@ -38,12 +38,14 @@ const TypesSelect = ({ dichotomies, onLetterPieceClick }: TypesSelectProps) => {
             letterInfo={letterInfo[letters[0]]}
             isSelected={dichotomies[dichotomy as Dichotomy] === letters[0]}
             handleClick={onLetterPieceClick}
+            tooltipPlacement="top"
           />
           <HeightIcon fontSize="small" sx={{ color: "black" }} />
           <LetterTypePiece
             letterInfo={letterInfo[letters[1]]}
             isSelected={dichotomies[dichotomy as Dichotomy] === letters[1]}
             handleClick={onLetterPieceClick}
+            tooltipPlacement="bottom"
           />
         </LetterRow>
       ))}
