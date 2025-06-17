@@ -32,12 +32,14 @@ type CompareTypeDialogProps = {
   isOpen: boolean;
   initialType: PersonalityType;
   onClose: () => void;
+  onCompareTypeSelect: (type: PersonalityType) => void;
 };
 
 const CompareTypeDialog = ({
   isOpen = false,
   initialType,
   onClose,
+  onCompareTypeSelect,
 }: CompareTypeDialogProps) => {
   return (
     <Dialog open={isOpen} onClose={onClose}>
@@ -51,6 +53,11 @@ const CompareTypeDialog = ({
                 sx={{
                   backgroundColor: type === initialType ? "green" : null,
                 }}
+                onClick={() => {
+                  onCompareTypeSelect(type);
+                  onClose();
+                }}
+                key={type}
               >
                 <Typography>{type}</Typography>
               </TypeListItemButton>

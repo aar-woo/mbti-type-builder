@@ -18,11 +18,16 @@ const HomePage = () => {
   });
   const [personalityType, setPersonalityType] =
     useState<PersonalityType | null>(null);
+  const [compareType, setCompareType] = useState<PersonalityType | null>(null);
 
   const handleLetterPieceClick = (dichotomy: Dichotomy, letter: LetterType) => {
     setDichotomies((dichotomies: LetterTypeDichotomies) => {
       return { ...dichotomies, [dichotomy]: letter };
     });
+  };
+
+  const handleCompareTypeSelect = (type: PersonalityType) => {
+    setCompareType(type);
   };
 
   useEffect(() => {
@@ -54,7 +59,23 @@ const HomePage = () => {
         dichotomies={dichotomies}
         onLetterPieceClick={handleLetterPieceClick}
       />
-      {personalityType && <PersonalityTypeInfo type={personalityType} />}
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "1rem",
+          width: "100%",
+        }}
+      >
+        {personalityType && (
+          <PersonalityTypeInfo
+            type={personalityType}
+            onCompareTypeSelect={handleCompareTypeSelect}
+          />
+        )}
+        {compareType && <PersonalityTypeInfo type={compareType} />}
+      </Box>
     </Box>
   );
 };
