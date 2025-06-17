@@ -6,6 +6,7 @@ import {
   DialogContent,
   List,
   ListItem,
+  ListItemButton,
 } from "@mui/material";
 import styled from "@emotion/styled";
 import { PERSONALITY_TYPES, PersonalityType } from "../types/personalityTypes";
@@ -17,7 +18,7 @@ const TypeListContainer = styled(List)`
   gap: 0.5rem;
 `;
 
-const TypeListItem = styled(ListItem)`
+const TypeListItemButton = styled(ListItemButton)`
   width: 20%;
   height: 30px;
   border: 1px solid black;
@@ -45,9 +46,14 @@ const CompareTypeDialog = ({
         <TypeListContainer>
           {Object.values(PERSONALITY_TYPES).map((type) => {
             return (
-              <TypeListItem>
+              <TypeListItemButton
+                disabled={type === initialType ? true : false}
+                sx={{
+                  backgroundColor: type === initialType ? "green" : null,
+                }}
+              >
                 <Typography>{type}</Typography>
-              </TypeListItem>
+              </TypeListItemButton>
             );
           })}
         </TypeListContainer>
