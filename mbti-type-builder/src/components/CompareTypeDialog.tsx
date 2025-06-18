@@ -32,6 +32,7 @@ type CompareTypeDialogProps = {
   isOpen: boolean;
   initialType: PersonalityType;
   onClose: () => void;
+  compareType: PersonalityType;
   onCompareTypeSelect: (type: PersonalityType) => void;
 };
 
@@ -39,6 +40,7 @@ const CompareTypeDialog = ({
   isOpen = false,
   initialType,
   onClose,
+  compareType,
   onCompareTypeSelect,
 }: CompareTypeDialogProps) => {
   return (
@@ -49,9 +51,20 @@ const CompareTypeDialog = ({
           {Object.values(PERSONALITY_TYPES).map((type) => {
             return (
               <TypeListItemButton
-                disabled={type === initialType ? true : false}
+                disabled={
+                  type === initialType || type === compareType ? true : false
+                }
                 sx={{
-                  backgroundColor: type === initialType ? "green" : null,
+                  color:
+                    type === initialType || type === compareType
+                      ? "white"
+                      : null,
+                  backgroundColor:
+                    type === initialType
+                      ? "green"
+                      : type === compareType
+                      ? "blue"
+                      : null,
                 }}
                 onClick={() => {
                   onCompareTypeSelect(type);

@@ -71,6 +71,7 @@ const HomePage = () => {
         {personalityType && (
           <PersonalityTypeInfo
             type={personalityType}
+            compareType={compareType}
             onCompareTypeSelect={handleCompareTypeSelect}
           />
         )}

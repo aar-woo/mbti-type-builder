@@ -69,11 +69,13 @@ const CompareButton = styled(Button)`
 
 type PersonalityTypeInfoProps = {
   type: PersonalityType;
+  compareType?: PersonalityType;
   onCompareTypeSelect?: (type: PersonalityType) => void;
 };
 
 const PersonalityTypeInfo = ({
   type,
+  compareType,
   onCompareTypeSelect,
 }: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
@@ -122,6 +124,7 @@ const PersonalityTypeInfo = ({
       <CompareTypeDialog
         isOpen={compareModalOpen}
         initialType={type}
+        compareType={compareType}
         onClose={() => setCompareModalOpen(false)}
         onCompareTypeSelect={(type) => onCompareTypeSelect(type)}
       />
