@@ -70,18 +70,19 @@ const CompareButton = styled(Button)`
 type PersonalityTypeInfoProps = {
   type: PersonalityType;
   compareType?: PersonalityType;
+  isInitialType?: Boolean;
   onCompareTypeSelect?: (type: PersonalityType) => void;
 };
 
 const PersonalityTypeInfo = ({
   type,
   compareType,
+  isInitialType,
   onCompareTypeSelect,
 }: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
   const [compareModalOpen, setCompareModalOpen] = useState<boolean>(false);
 
-  console.log(typeData.type.toLowerCase());
   return (
     <PersonalityTypeContainer>
       <InfoHeaderContainer>
@@ -98,7 +99,7 @@ const PersonalityTypeInfo = ({
           </Typography>
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
-        {compareType && type !== compareType && (
+        {isInitialType && (
           <CompareButton
             variant="contained"
             color="primary"
