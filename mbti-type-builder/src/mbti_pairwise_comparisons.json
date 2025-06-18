@@ -1,0 +1,842 @@
+[
+  {
+    "types": ["INFJ", "INFP"],
+    "similarities": "INFJ and INFP may share similar values or communication styles.",
+    "differences": "INFJ and INFP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFJ and INFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ENFJ"],
+    "similarities": "INFJ and ENFJ may share similar values or communication styles.",
+    "differences": "INFJ and ENFJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFJ and ENFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ENFP"],
+    "similarities": "INFJ and ENFP may share similar values or communication styles.",
+    "differences": "INFJ and ENFP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "INFJ and ENFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "INTJ"],
+    "similarities": "INFJ and INTJ may share similar values or communication styles.",
+    "differences": "INFJ and INTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFJ and INTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "INTP"],
+    "similarities": "INFJ and INTP may share similar values or communication styles.",
+    "differences": "INFJ and INTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFJ and INTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ENTJ"],
+    "similarities": "INFJ and ENTJ may share similar values or communication styles.",
+    "differences": "INFJ and ENTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFJ and ENTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ENTP"],
+    "similarities": "INFJ and ENTP may share similar values or communication styles.",
+    "differences": "INFJ and ENTP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "INFJ and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ISFJ"],
+    "similarities": "INFJ and ISFJ may share similar values or communication styles.",
+    "differences": "INFJ and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ISFP"],
+    "similarities": "INFJ and ISFP may share similar values or communication styles.",
+    "differences": "INFJ and ISFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ESFJ"],
+    "similarities": "INFJ and ESFJ may share similar values or communication styles.",
+    "differences": "INFJ and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ESFP"],
+    "similarities": "INFJ and ESFP may share similar values or communication styles.",
+    "differences": "INFJ and ESFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ISTJ"],
+    "similarities": "INFJ and ISTJ may share similar values or communication styles.",
+    "differences": "INFJ and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ISTP"],
+    "similarities": "INFJ and ISTP may share similar values or communication styles.",
+    "differences": "INFJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ESTJ"],
+    "similarities": "INFJ and ESTJ may share similar values or communication styles.",
+    "differences": "INFJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFJ", "ESTP"],
+    "similarities": "INFJ and ESTP may share similar values or communication styles.",
+    "differences": "INFJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ENFJ"],
+    "similarities": "INFP and ENFJ may share similar values or communication styles.",
+    "differences": "INFP and ENFJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "INFP and ENFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ENFP"],
+    "similarities": "INFP and ENFP may share similar values or communication styles.",
+    "differences": "INFP and ENFP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFP and ENFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "INTJ"],
+    "similarities": "INFP and INTJ may share similar values or communication styles.",
+    "differences": "INFP and INTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFP and INTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "INTP"],
+    "similarities": "INFP and INTP may share similar values or communication styles.",
+    "differences": "INFP and INTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFP and INTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ENTJ"],
+    "similarities": "INFP and ENTJ may share similar values or communication styles.",
+    "differences": "INFP and ENTJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "INFP and ENTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ENTP"],
+    "similarities": "INFP and ENTP may share similar values or communication styles.",
+    "differences": "INFP and ENTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INFP and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ISFJ"],
+    "similarities": "INFP and ISFJ may share similar values or communication styles.",
+    "differences": "INFP and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ISFP"],
+    "similarities": "INFP and ISFP may share similar values or communication styles.",
+    "differences": "INFP and ISFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ESFJ"],
+    "similarities": "INFP and ESFJ may share similar values or communication styles.",
+    "differences": "INFP and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ESFP"],
+    "similarities": "INFP and ESFP may share similar values or communication styles.",
+    "differences": "INFP and ESFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ISTJ"],
+    "similarities": "INFP and ISTJ may share similar values or communication styles.",
+    "differences": "INFP and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ISTP"],
+    "similarities": "INFP and ISTP may share similar values or communication styles.",
+    "differences": "INFP and ISTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ESTJ"],
+    "similarities": "INFP and ESTJ may share similar values or communication styles.",
+    "differences": "INFP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INFP", "ESTP"],
+    "similarities": "INFP and ESTP may share similar values or communication styles.",
+    "differences": "INFP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "INFP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ENFP"],
+    "similarities": "ENFJ and ENFP may share similar values or communication styles.",
+    "differences": "ENFJ and ENFP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFJ and ENFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "INTJ"],
+    "similarities": "ENFJ and INTJ may share similar values or communication styles.",
+    "differences": "ENFJ and INTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFJ and INTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "INTP"],
+    "similarities": "ENFJ and INTP may share similar values or communication styles.",
+    "differences": "ENFJ and INTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFJ and INTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ENTJ"],
+    "similarities": "ENFJ and ENTJ may share similar values or communication styles.",
+    "differences": "ENFJ and ENTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFJ and ENTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ENTP"],
+    "similarities": "ENFJ and ENTP may share similar values or communication styles.",
+    "differences": "ENFJ and ENTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFJ and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ISFJ"],
+    "similarities": "ENFJ and ISFJ may share similar values or communication styles.",
+    "differences": "ENFJ and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ISFP"],
+    "similarities": "ENFJ and ISFP may share similar values or communication styles.",
+    "differences": "ENFJ and ISFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ESFJ"],
+    "similarities": "ENFJ and ESFJ may share similar values or communication styles.",
+    "differences": "ENFJ and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ESFP"],
+    "similarities": "ENFJ and ESFP may share similar values or communication styles.",
+    "differences": "ENFJ and ESFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ISTJ"],
+    "similarities": "ENFJ and ISTJ may share similar values or communication styles.",
+    "differences": "ENFJ and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ISTP"],
+    "similarities": "ENFJ and ISTP may share similar values or communication styles.",
+    "differences": "ENFJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ESTJ"],
+    "similarities": "ENFJ and ESTJ may share similar values or communication styles.",
+    "differences": "ENFJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFJ", "ESTP"],
+    "similarities": "ENFJ and ESTP may share similar values or communication styles.",
+    "differences": "ENFJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "INTJ"],
+    "similarities": "ENFP and INTJ may share similar values or communication styles.",
+    "differences": "ENFP and INTJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ENFP and INTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "INTP"],
+    "similarities": "ENFP and INTP may share similar values or communication styles.",
+    "differences": "ENFP and INTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFP and INTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ENTJ"],
+    "similarities": "ENFP and ENTJ may share similar values or communication styles.",
+    "differences": "ENFP and ENTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFP and ENTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ENTP"],
+    "similarities": "ENFP and ENTP may share similar values or communication styles.",
+    "differences": "ENFP and ENTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENFP and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ISFJ"],
+    "similarities": "ENFP and ISFJ may share similar values or communication styles.",
+    "differences": "ENFP and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ISFP"],
+    "similarities": "ENFP and ISFP may share similar values or communication styles.",
+    "differences": "ENFP and ISFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ESFJ"],
+    "similarities": "ENFP and ESFJ may share similar values or communication styles.",
+    "differences": "ENFP and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ESFP"],
+    "similarities": "ENFP and ESFP may share similar values or communication styles.",
+    "differences": "ENFP and ESFP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ISTJ"],
+    "similarities": "ENFP and ISTJ may share similar values or communication styles.",
+    "differences": "ENFP and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ISTP"],
+    "similarities": "ENFP and ISTP may share similar values or communication styles.",
+    "differences": "ENFP and ISTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ESTJ"],
+    "similarities": "ENFP and ESTJ may share similar values or communication styles.",
+    "differences": "ENFP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENFP", "ESTP"],
+    "similarities": "ENFP and ESTP may share similar values or communication styles.",
+    "differences": "ENFP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "disaster",
+    "summary": "ENFP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "INTP"],
+    "similarities": "INTJ and INTP may share similar values or communication styles.",
+    "differences": "INTJ and INTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INTJ and INTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ENTJ"],
+    "similarities": "INTJ and ENTJ may share similar values or communication styles.",
+    "differences": "INTJ and ENTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INTJ and ENTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ENTP"],
+    "similarities": "INTJ and ENTP may share similar values or communication styles.",
+    "differences": "INTJ and ENTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INTJ and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ISFJ"],
+    "similarities": "INTJ and ISFJ may share similar values or communication styles.",
+    "differences": "INTJ and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTJ and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ISFP"],
+    "similarities": "INTJ and ISFP may share similar values or communication styles.",
+    "differences": "INTJ and ISFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTJ and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ESFJ"],
+    "similarities": "INTJ and ESFJ may share similar values or communication styles.",
+    "differences": "INTJ and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTJ and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ESFP"],
+    "similarities": "INTJ and ESFP may share similar values or communication styles.",
+    "differences": "INTJ and ESFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTJ and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ISTJ"],
+    "similarities": "INTJ and ISTJ may share similar values or communication styles.",
+    "differences": "INTJ and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTJ and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ISTP"],
+    "similarities": "INTJ and ISTP may share similar values or communication styles.",
+    "differences": "INTJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ESTJ"],
+    "similarities": "INTJ and ESTJ may share similar values or communication styles.",
+    "differences": "INTJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTJ", "ESTP"],
+    "similarities": "INTJ and ESTP may share similar values or communication styles.",
+    "differences": "INTJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ENTJ"],
+    "similarities": "INTP and ENTJ may share similar values or communication styles.",
+    "differences": "INTP and ENTJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "INTP and ENTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ENTP"],
+    "similarities": "INTP and ENTP may share similar values or communication styles.",
+    "differences": "INTP and ENTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "INTP and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ISFJ"],
+    "similarities": "INTP and ISFJ may share similar values or communication styles.",
+    "differences": "INTP and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTP and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ISFP"],
+    "similarities": "INTP and ISFP may share similar values or communication styles.",
+    "differences": "INTP and ISFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTP and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ESFJ"],
+    "similarities": "INTP and ESFJ may share similar values or communication styles.",
+    "differences": "INTP and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTP and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ESFP"],
+    "similarities": "INTP and ESFP may share similar values or communication styles.",
+    "differences": "INTP and ESFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTP and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ISTJ"],
+    "similarities": "INTP and ISTJ may share similar values or communication styles.",
+    "differences": "INTP and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "INTP and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ISTP"],
+    "similarities": "INTP and ISTP may share similar values or communication styles.",
+    "differences": "INTP and ISTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTP and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ESTJ"],
+    "similarities": "INTP and ESTJ may share similar values or communication styles.",
+    "differences": "INTP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "INTP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["INTP", "ESTP"],
+    "similarities": "INTP and ESTP may share similar values or communication styles.",
+    "differences": "INTP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "INTP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ENTP"],
+    "similarities": "ENTJ and ENTP may share similar values or communication styles.",
+    "differences": "ENTJ and ENTP differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ENTJ and ENTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ISFJ"],
+    "similarities": "ENTJ and ISFJ may share similar values or communication styles.",
+    "differences": "ENTJ and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ISFP"],
+    "similarities": "ENTJ and ISFP may share similar values or communication styles.",
+    "differences": "ENTJ and ISFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ESFJ"],
+    "similarities": "ENTJ and ESFJ may share similar values or communication styles.",
+    "differences": "ENTJ and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ESFP"],
+    "similarities": "ENTJ and ESFP may share similar values or communication styles.",
+    "differences": "ENTJ and ESFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ISTJ"],
+    "similarities": "ENTJ and ISTJ may share similar values or communication styles.",
+    "differences": "ENTJ and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ISTP"],
+    "similarities": "ENTJ and ISTP may share similar values or communication styles.",
+    "differences": "ENTJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ESTJ"],
+    "similarities": "ENTJ and ESTJ may share similar values or communication styles.",
+    "differences": "ENTJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTJ", "ESTP"],
+    "similarities": "ENTJ and ESTP may share similar values or communication styles.",
+    "differences": "ENTJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ISFJ"],
+    "similarities": "ENTP and ISFJ may share similar values or communication styles.",
+    "differences": "ENTP and ISFJ differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTP and ISFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ISFP"],
+    "similarities": "ENTP and ISFP may share similar values or communication styles.",
+    "differences": "ENTP and ISFP differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ENTP and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ESFJ"],
+    "similarities": "ENTP and ESFJ may share similar values or communication styles.",
+    "differences": "ENTP and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ENTP and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ESFP"],
+    "similarities": "ENTP and ESFP may share similar values or communication styles.",
+    "differences": "ENTP and ESFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTP and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ISTJ"],
+    "similarities": "ENTP and ISTJ may share similar values or communication styles.",
+    "differences": "ENTP and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ENTP and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ISTP"],
+    "similarities": "ENTP and ISTP may share similar values or communication styles.",
+    "differences": "ENTP and ISTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTP and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ESTJ"],
+    "similarities": "ENTP and ESTJ may share similar values or communication styles.",
+    "differences": "ENTP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ENTP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ENTP", "ESTP"],
+    "similarities": "ENTP and ESTP may share similar values or communication styles.",
+    "differences": "ENTP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ENTP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ISFP"],
+    "similarities": "ISFJ and ISFP may share similar values or communication styles.",
+    "differences": "ISFJ and ISFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ISFJ and ISFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ESFJ"],
+    "similarities": "ISFJ and ESFJ may share similar values or communication styles.",
+    "differences": "ISFJ and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ISFJ and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ESFP"],
+    "similarities": "ISFJ and ESFP may share similar values or communication styles.",
+    "differences": "ISFJ and ESFP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ISFJ and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ISTJ"],
+    "similarities": "ISFJ and ISTJ may share similar values or communication styles.",
+    "differences": "ISFJ and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ISFJ and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ISTP"],
+    "similarities": "ISFJ and ISTP may share similar values or communication styles.",
+    "differences": "ISFJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ISFJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ESTJ"],
+    "similarities": "ISFJ and ESTJ may share similar values or communication styles.",
+    "differences": "ISFJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ISFJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFJ", "ESTP"],
+    "similarities": "ISFJ and ESTP may share similar values or communication styles.",
+    "differences": "ISFJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ISFJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFP", "ESFJ"],
+    "similarities": "ISFP and ESFJ may share similar values or communication styles.",
+    "differences": "ISFP and ESFJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ISFP and ESFJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFP", "ESFP"],
+    "similarities": "ISFP and ESFP may share similar values or communication styles.",
+    "differences": "ISFP and ESFP differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ISFP and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFP", "ISTJ"],
+    "similarities": "ISFP and ISTJ may share similar values or communication styles.",
+    "differences": "ISFP and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ISFP and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFP", "ISTP"],
+    "similarities": "ISFP and ISTP may share similar values or communication styles.",
+    "differences": "ISFP and ISTP differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ISFP and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFP", "ESTJ"],
+    "similarities": "ISFP and ESTJ may share similar values or communication styles.",
+    "differences": "ISFP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ISFP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISFP", "ESTP"],
+    "similarities": "ISFP and ESTP may share similar values or communication styles.",
+    "differences": "ISFP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ISFP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFJ", "ESFP"],
+    "similarities": "ESFJ and ESFP may share similar values or communication styles.",
+    "differences": "ESFJ and ESFP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ESFJ and ESFP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFJ", "ISTJ"],
+    "similarities": "ESFJ and ISTJ may share similar values or communication styles.",
+    "differences": "ESFJ and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ESFJ and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFJ", "ISTP"],
+    "similarities": "ESFJ and ISTP may share similar values or communication styles.",
+    "differences": "ESFJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ESFJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFJ", "ESTJ"],
+    "similarities": "ESFJ and ESTJ may share similar values or communication styles.",
+    "differences": "ESFJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ESFJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFJ", "ESTP"],
+    "similarities": "ESFJ and ESTP may share similar values or communication styles.",
+    "differences": "ESFJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ESFJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFP", "ISTJ"],
+    "similarities": "ESFP and ISTJ may share similar values or communication styles.",
+    "differences": "ESFP and ISTJ differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ESFP and ISTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFP", "ISTP"],
+    "similarities": "ESFP and ISTP may share similar values or communication styles.",
+    "differences": "ESFP and ISTP differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ESFP and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFP", "ESTJ"],
+    "similarities": "ESFP and ESTJ may share similar values or communication styles.",
+    "differences": "ESFP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ESFP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESFP", "ESTP"],
+    "similarities": "ESFP and ESTP may share similar values or communication styles.",
+    "differences": "ESFP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "bad",
+    "summary": "ESFP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISTJ", "ISTP"],
+    "similarities": "ISTJ and ISTP may share similar values or communication styles.",
+    "differences": "ISTJ and ISTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ISTJ and ISTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISTJ", "ESTJ"],
+    "similarities": "ISTJ and ESTJ may share similar values or communication styles.",
+    "differences": "ISTJ and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ISTJ and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISTJ", "ESTP"],
+    "similarities": "ISTJ and ESTP may share similar values or communication styles.",
+    "differences": "ISTJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ISTJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISTP", "ESTJ"],
+    "similarities": "ISTP and ESTJ may share similar values or communication styles.",
+    "differences": "ISTP and ESTJ differ in how they process information and make decisions.",
+    "compatibility": "good",
+    "summary": "ISTP and ESTJ bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ISTP", "ESTP"],
+    "similarities": "ISTP and ESTP may share similar values or communication styles.",
+    "differences": "ISTP and ESTP differ in how they process information and make decisions.",
+    "compatibility": "ideal",
+    "summary": "ISTP and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  },
+  {
+    "types": ["ESTJ", "ESTP"],
+    "similarities": "ESTJ and ESTP may share similar values or communication styles.",
+    "differences": "ESTJ and ESTP differ in how they process information and make decisions.",
+    "compatibility": "fine",
+    "summary": "ESTJ and ESTP bring different strengths to the relationship, offering both challenges and growth opportunities."
+  }
+]

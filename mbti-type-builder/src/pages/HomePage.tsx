@@ -8,6 +8,7 @@ import LetterType, {
 import { Box } from "@mui/material";
 import PersonalityTypeInfo from "../components/PersonalityTypeInfo.tsx";
 import { PersonalityType } from "../types/personalityTypes.tsx";
+import TypeComparison from "../components/TypeComparison.tsx";
 
 const HomePage = () => {
   const [dichotomies, setDichotomies] = useState<LetterTypeDichotomies>({
@@ -72,8 +73,12 @@ const HomePage = () => {
           <PersonalityTypeInfo
             type={personalityType}
             compareType={compareType}
+            isInitialType={true}
             onCompareTypeSelect={handleCompareTypeSelect}
           />
+        )}
+        {compareType && (
+          <TypeComparison type={personalityType} compareType={compareType} />
         )}
         {compareType && <PersonalityTypeInfo type={compareType} />}
       </Box>
