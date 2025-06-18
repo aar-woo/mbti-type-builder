@@ -57,7 +57,7 @@ const InfoHeaderTextContainer = styled(Box)`
   flex-direction: column;
   align-items: start;
   text-align: left;
-  width: 400px;
+  max-width: 400px;
 `;
 
 const CompareButton = styled(Button)`
@@ -98,14 +98,16 @@ const PersonalityTypeInfo = ({
           </Typography>
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
-        <CompareButton
-          variant="contained"
-          color="primary"
-          startIcon={<CompareIcon />}
-          onClick={() => setCompareModalOpen((prev) => !prev)}
-        >
-          Compare
-        </CompareButton>
+        {compareType && type !== compareType && (
+          <CompareButton
+            variant="contained"
+            color="primary"
+            startIcon={<CompareIcon />}
+            onClick={() => setCompareModalOpen((prev) => !prev)}
+          >
+            Compare
+          </CompareButton>
+        )}
       </InfoHeaderContainer>
       <Box>
         <PersonalityTypeInfoAccordion
