@@ -1,842 +1,1202 @@
 [
   {
-    "types": ["INFJ", "INFP"],
+    "types": [
+      "INFJ",
+      "INFP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both use Feeling in decisions.",
     "differences": "INFJ leans toward a structured lifestyle, INFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFJ", "ENFJ"],
+    "types": [
+      "INFJ",
+      "ENFJ"
+    ],
     "similarities": "They share 3 preferences: both focus on Intuition, both use Feeling in decisions, both prefer Judging (structure).",
     "differences": "INFJ is introverted while ENFJ is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFJ", "ENFP"],
+    "types": [
+      "INFJ",
+      "ENFP"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both use Feeling in decisions.",
     "differences": "INFJ is introverted while ENFP is extraverted; INFJ leans toward a structured lifestyle, ENFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFJ", "INTJ"],
+    "types": [
+      "INFJ",
+      "INTJ"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both prefer Judging (structure).",
     "differences": "INFJ makes decisions based on values/empathy, INTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFJ", "INTP"],
+    "types": [
+      "INFJ",
+      "INTP"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both focus on Intuition.",
     "differences": "INFJ makes decisions based on values/empathy, INTP based on logic; INFJ leans toward a structured lifestyle, INTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFJ", "ENTJ"],
+    "types": [
+      "INFJ",
+      "ENTJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both prefer Judging (structure).",
     "differences": "INFJ is introverted while ENTJ is extraverted; INFJ makes decisions based on values/empathy, ENTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFJ", "ENTP"],
+    "types": [
+      "INFJ",
+      "ENTP"
+    ],
     "similarities": "They share 1 preference: both focus on Intuition.",
     "differences": "INFJ is introverted while ENTP is extraverted; INFJ makes decisions based on values/empathy, ENTP based on logic; INFJ leans toward a structured lifestyle, ENTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFJ", "ISFJ"],
+    "types": [
+      "INFJ",
+      "ISFJ"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both use Feeling in decisions, both prefer Judging (structure).",
     "differences": "INFJ prefers abstract ideas, ISFJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFJ", "ISFP"],
+    "types": [
+      "INFJ",
+      "ISFP"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both use Feeling in decisions.",
     "differences": "INFJ prefers abstract ideas, ISFP prefers concrete details; INFJ leans toward a structured lifestyle, ISFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFJ", "ESFJ"],
+    "types": [
+      "INFJ",
+      "ESFJ"
+    ],
     "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Judging (structure).",
     "differences": "INFJ is introverted while ESFJ is extraverted; INFJ prefers abstract ideas, ESFJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFJ", "ESFP"],
+    "types": [
+      "INFJ",
+      "ESFP"
+    ],
     "similarities": "They share 1 preference: both use Feeling in decisions.",
     "differences": "INFJ is introverted while ESFP is extraverted; INFJ prefers abstract ideas, ESFP prefers concrete details; INFJ leans toward a structured lifestyle, ESFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFJ", "ISTJ"],
+    "types": [
+      "INFJ",
+      "ISTJ"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both prefer Judging (structure).",
     "differences": "INFJ prefers abstract ideas, ISTJ prefers concrete details; INFJ makes decisions based on values/empathy, ISTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFJ", "ISTP"],
+    "types": [
+      "INFJ",
+      "ISTP"
+    ],
     "similarities": "They share 1 preference: both are Introverted.",
     "differences": "INFJ prefers abstract ideas, ISTP prefers concrete details; INFJ makes decisions based on values/empathy, ISTP based on logic; INFJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFJ", "ESTJ"],
+    "types": [
+      "INFJ",
+      "ESTJ"
+    ],
     "similarities": "They share 1 preference: both prefer Judging (structure).",
     "differences": "INFJ is introverted while ESTJ is extraverted; INFJ prefers abstract ideas, ESTJ prefers concrete details; INFJ makes decisions based on values/empathy, ESTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFJ", "ESTP"],
+    "types": [
+      "INFJ",
+      "ESTP"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "INFJ is introverted while ESTP is extraverted; INFJ prefers abstract ideas, ESTP prefers concrete details; INFJ makes decisions based on values/empathy, ESTP based on logic; INFJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["INFP", "ENFJ"],
+    "types": [
+      "INFP",
+      "ENFJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both use Feeling in decisions.",
     "differences": "INFP is introverted while ENFJ is extraverted; INFP leans toward a spontaneous lifestyle, ENFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFP", "ENFP"],
+    "types": [
+      "INFP",
+      "ENFP"
+    ],
     "similarities": "They share 3 preferences: both focus on Intuition, both use Feeling in decisions, both prefer Perceiving (flexibility).",
     "differences": "INFP is introverted while ENFP is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFP", "INTJ"],
+    "types": [
+      "INFP",
+      "INTJ"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both focus on Intuition.",
     "differences": "INFP makes decisions based on values/empathy, INTJ based on logic; INFP leans toward a spontaneous lifestyle, INTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFP", "INTP"],
+    "types": [
+      "INFP",
+      "INTP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both prefer Perceiving (flexibility).",
     "differences": "INFP makes decisions based on values/empathy, INTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFP", "ENTJ"],
+    "types": [
+      "INFP",
+      "ENTJ"
+    ],
     "similarities": "They share 1 preference: both focus on Intuition.",
     "differences": "INFP is introverted while ENTJ is extraverted; INFP makes decisions based on values/empathy, ENTJ based on logic; INFP leans toward a spontaneous lifestyle, ENTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFP", "ENTP"],
+    "types": [
+      "INFP",
+      "ENTP"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both prefer Perceiving (flexibility).",
     "differences": "INFP is introverted while ENTP is extraverted; INFP makes decisions based on values/empathy, ENTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFP", "ISFJ"],
+    "types": [
+      "INFP",
+      "ISFJ"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both use Feeling in decisions.",
     "differences": "INFP prefers abstract ideas, ISFJ prefers concrete details; INFP leans toward a spontaneous lifestyle, ISFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFP", "ISFP"],
+    "types": [
+      "INFP",
+      "ISFP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both use Feeling in decisions, both prefer Perceiving (flexibility).",
     "differences": "INFP prefers abstract ideas, ISFP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INFP", "ESFJ"],
+    "types": [
+      "INFP",
+      "ESFJ"
+    ],
     "similarities": "They share 1 preference: both use Feeling in decisions.",
     "differences": "INFP is introverted while ESFJ is extraverted; INFP prefers abstract ideas, ESFJ prefers concrete details; INFP leans toward a spontaneous lifestyle, ESFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFP", "ESFP"],
+    "types": [
+      "INFP",
+      "ESFP"
+    ],
     "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Perceiving (flexibility).",
     "differences": "INFP is introverted while ESFP is extraverted; INFP prefers abstract ideas, ESFP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFP", "ISTJ"],
+    "types": [
+      "INFP",
+      "ISTJ"
+    ],
     "similarities": "They share 1 preference: both are Introverted.",
     "differences": "INFP prefers abstract ideas, ISTJ prefers concrete details; INFP makes decisions based on values/empathy, ISTJ based on logic; INFP leans toward a spontaneous lifestyle, ISTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INFP", "ISTP"],
+    "types": [
+      "INFP",
+      "ISTP"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both prefer Perceiving (flexibility).",
     "differences": "INFP prefers abstract ideas, ISTP prefers concrete details; INFP makes decisions based on values/empathy, ISTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INFP", "ESTJ"],
+    "types": [
+      "INFP",
+      "ESTJ"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "INFP is introverted while ESTJ is extraverted; INFP prefers abstract ideas, ESTJ prefers concrete details; INFP makes decisions based on values/empathy, ESTJ based on logic; INFP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["INFP", "ESTP"],
+    "types": [
+      "INFP",
+      "ESTP"
+    ],
     "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
     "differences": "INFP is introverted while ESTP is extraverted; INFP prefers abstract ideas, ESTP prefers concrete details; INFP makes decisions based on values/empathy, ESTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFJ", "ENFP"],
+    "types": [
+      "ENFJ",
+      "ENFP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both use Feeling in decisions.",
     "differences": "ENFJ leans toward a structured lifestyle, ENFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENFJ", "INTJ"],
+    "types": [
+      "ENFJ",
+      "INTJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both prefer Judging (structure).",
     "differences": "ENFJ is extraverted while INTJ is introverted; ENFJ makes decisions based on values/empathy, INTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFJ", "INTP"],
+    "types": [
+      "ENFJ",
+      "INTP"
+    ],
     "similarities": "They share 1 preference: both focus on Intuition.",
     "differences": "ENFJ is extraverted while INTP is introverted; ENFJ makes decisions based on values/empathy, INTP based on logic; ENFJ leans toward a structured lifestyle, INTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFJ", "ENTJ"],
+    "types": [
+      "ENFJ",
+      "ENTJ"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both prefer Judging (structure).",
     "differences": "ENFJ makes decisions based on values/empathy, ENTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENFJ", "ENTP"],
+    "types": [
+      "ENFJ",
+      "ENTP"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both focus on Intuition.",
     "differences": "ENFJ makes decisions based on values/empathy, ENTP based on logic; ENFJ leans toward a structured lifestyle, ENTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFJ", "ISFJ"],
+    "types": [
+      "ENFJ",
+      "ISFJ"
+    ],
     "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Judging (structure).",
     "differences": "ENFJ is extraverted while ISFJ is introverted; ENFJ prefers abstract ideas, ISFJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFJ", "ISFP"],
+    "types": [
+      "ENFJ",
+      "ISFP"
+    ],
     "similarities": "They share 1 preference: both use Feeling in decisions.",
     "differences": "ENFJ is extraverted while ISFP is introverted; ENFJ prefers abstract ideas, ISFP prefers concrete details; ENFJ leans toward a structured lifestyle, ISFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFJ", "ESFJ"],
+    "types": [
+      "ENFJ",
+      "ESFJ"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both use Feeling in decisions, both prefer Judging (structure).",
     "differences": "ENFJ prefers abstract ideas, ESFJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENFJ", "ESFP"],
+    "types": [
+      "ENFJ",
+      "ESFP"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both use Feeling in decisions.",
     "differences": "ENFJ prefers abstract ideas, ESFP prefers concrete details; ENFJ leans toward a structured lifestyle, ESFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFJ", "ISTJ"],
+    "types": [
+      "ENFJ",
+      "ISTJ"
+    ],
     "similarities": "They share 1 preference: both prefer Judging (structure).",
     "differences": "ENFJ is extraverted while ISTJ is introverted; ENFJ prefers abstract ideas, ISTJ prefers concrete details; ENFJ makes decisions based on values/empathy, ISTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFJ", "ISTP"],
+    "types": [
+      "ENFJ",
+      "ISTP"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "ENFJ is extraverted while ISTP is introverted; ENFJ prefers abstract ideas, ISTP prefers concrete details; ENFJ makes decisions based on values/empathy, ISTP based on logic; ENFJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["ENFJ", "ESTJ"],
+    "types": [
+      "ENFJ",
+      "ESTJ"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both prefer Judging (structure).",
     "differences": "ENFJ prefers abstract ideas, ESTJ prefers concrete details; ENFJ makes decisions based on values/empathy, ESTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFJ", "ESTP"],
+    "types": [
+      "ENFJ",
+      "ESTP"
+    ],
     "similarities": "They share 1 preference: both are Extraverted.",
     "differences": "ENFJ prefers abstract ideas, ESTP prefers concrete details; ENFJ makes decisions based on values/empathy, ESTP based on logic; ENFJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFP", "INTJ"],
+    "types": [
+      "ENFP",
+      "INTJ"
+    ],
     "similarities": "They share 1 preference: both focus on Intuition.",
     "differences": "ENFP is extraverted while INTJ is introverted; ENFP makes decisions based on values/empathy, INTJ based on logic; ENFP leans toward a spontaneous lifestyle, INTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFP", "INTP"],
+    "types": [
+      "ENFP",
+      "INTP"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both prefer Perceiving (flexibility).",
     "differences": "ENFP is extraverted while INTP is introverted; ENFP makes decisions based on values/empathy, INTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFP", "ENTJ"],
+    "types": [
+      "ENFP",
+      "ENTJ"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both focus on Intuition.",
     "differences": "ENFP makes decisions based on values/empathy, ENTJ based on logic; ENFP leans toward a spontaneous lifestyle, ENTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFP", "ENTP"],
+    "types": [
+      "ENFP",
+      "ENTP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both prefer Perceiving (flexibility).",
     "differences": "ENFP makes decisions based on values/empathy, ENTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENFP", "ISFJ"],
+    "types": [
+      "ENFP",
+      "ISFJ"
+    ],
     "similarities": "They share 1 preference: both use Feeling in decisions.",
     "differences": "ENFP is extraverted while ISFJ is introverted; ENFP prefers abstract ideas, ISFJ prefers concrete details; ENFP leans toward a spontaneous lifestyle, ISFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFP", "ISFP"],
+    "types": [
+      "ENFP",
+      "ISFP"
+    ],
     "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Perceiving (flexibility).",
     "differences": "ENFP is extraverted while ISFP is introverted; ENFP prefers abstract ideas, ISFP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFP", "ESFJ"],
+    "types": [
+      "ENFP",
+      "ESFJ"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both use Feeling in decisions.",
     "differences": "ENFP prefers abstract ideas, ESFJ prefers concrete details; ENFP leans toward a spontaneous lifestyle, ESFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENFP", "ESFP"],
+    "types": [
+      "ENFP",
+      "ESFP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both use Feeling in decisions, both prefer Perceiving (flexibility).",
     "differences": "ENFP prefers abstract ideas, ESFP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENFP", "ISTJ"],
+    "types": [
+      "ENFP",
+      "ISTJ"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "ENFP is extraverted while ISTJ is introverted; ENFP prefers abstract ideas, ISTJ prefers concrete details; ENFP makes decisions based on values/empathy, ISTJ based on logic; ENFP leans toward a spontaneous lifestyle, ISTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["ENFP", "ISTP"],
+    "types": [
+      "ENFP",
+      "ISTP"
+    ],
     "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
     "differences": "ENFP is extraverted while ISTP is introverted; ENFP prefers abstract ideas, ISTP prefers concrete details; ENFP makes decisions based on values/empathy, ISTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFP", "ESTJ"],
+    "types": [
+      "ENFP",
+      "ESTJ"
+    ],
     "similarities": "They share 1 preference: both are Extraverted.",
     "differences": "ENFP prefers abstract ideas, ESTJ prefers concrete details; ENFP makes decisions based on values/empathy, ESTJ based on logic; ENFP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENFP", "ESTP"],
+    "types": [
+      "ENFP",
+      "ESTP"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both prefer Perceiving (flexibility).",
     "differences": "ENFP prefers abstract ideas, ESTP prefers concrete details; ENFP makes decisions based on values/empathy, ESTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTJ", "INTP"],
+    "types": [
+      "INTJ",
+      "INTP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both use Thinking in decisions.",
     "differences": "INTJ leans toward a structured lifestyle, INTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INTJ", "ENTJ"],
+    "types": [
+      "INTJ",
+      "ENTJ"
+    ],
     "similarities": "They share 3 preferences: both focus on Intuition, both use Thinking in decisions, both prefer Judging (structure).",
     "differences": "INTJ is introverted while ENTJ is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INTJ", "ENTP"],
+    "types": [
+      "INTJ",
+      "ENTP"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both use Thinking in decisions.",
     "differences": "INTJ is introverted while ENTP is extraverted; INTJ leans toward a structured lifestyle, ENTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTJ", "ISFJ"],
+    "types": [
+      "INTJ",
+      "ISFJ"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both prefer Judging (structure).",
     "differences": "INTJ prefers abstract ideas, ISFJ prefers concrete details; INTJ makes decisions based on logic, ISFJ based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTJ", "ISFP"],
+    "types": [
+      "INTJ",
+      "ISFP"
+    ],
     "similarities": "They share 1 preference: both are Introverted.",
     "differences": "INTJ prefers abstract ideas, ISFP prefers concrete details; INTJ makes decisions based on logic, ISFP based on values/empathy; INTJ leans toward a structured lifestyle, ISFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INTJ", "ESFJ"],
+    "types": [
+      "INTJ",
+      "ESFJ"
+    ],
     "similarities": "They share 1 preference: both prefer Judging (structure).",
     "differences": "INTJ is introverted while ESFJ is extraverted; INTJ prefers abstract ideas, ESFJ prefers concrete details; INTJ makes decisions based on logic, ESFJ based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INTJ", "ESFP"],
+    "types": [
+      "INTJ",
+      "ESFP"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "INTJ is introverted while ESFP is extraverted; INTJ prefers abstract ideas, ESFP prefers concrete details; INTJ makes decisions based on logic, ESFP based on values/empathy; INTJ leans toward a structured lifestyle, ESFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["INTJ", "ISTJ"],
+    "types": [
+      "INTJ",
+      "ISTJ"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both use Thinking in decisions, both prefer Judging (structure).",
     "differences": "INTJ prefers abstract ideas, ISTJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INTJ", "ISTP"],
+    "types": [
+      "INTJ",
+      "ISTP"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both use Thinking in decisions.",
     "differences": "INTJ prefers abstract ideas, ISTP prefers concrete details; INTJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTJ", "ESTJ"],
+    "types": [
+      "INTJ",
+      "ESTJ"
+    ],
     "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Judging (structure).",
     "differences": "INTJ is introverted while ESTJ is extraverted; INTJ prefers abstract ideas, ESTJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTJ", "ESTP"],
+    "types": [
+      "INTJ",
+      "ESTP"
+    ],
     "similarities": "They share 1 preference: both use Thinking in decisions.",
     "differences": "INTJ is introverted while ESTP is extraverted; INTJ prefers abstract ideas, ESTP prefers concrete details; INTJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INTP", "ENTJ"],
+    "types": [
+      "INTP",
+      "ENTJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Intuition, both use Thinking in decisions.",
     "differences": "INTP is introverted while ENTJ is extraverted; INTP leans toward a spontaneous lifestyle, ENTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTP", "ENTP"],
+    "types": [
+      "INTP",
+      "ENTP"
+    ],
     "similarities": "They share 3 preferences: both focus on Intuition, both use Thinking in decisions, both prefer Perceiving (flexibility).",
     "differences": "INTP is introverted while ENTP is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INTP", "ISFJ"],
+    "types": [
+      "INTP",
+      "ISFJ"
+    ],
     "similarities": "They share 1 preference: both are Introverted.",
     "differences": "INTP prefers abstract ideas, ISFJ prefers concrete details; INTP makes decisions based on logic, ISFJ based on values/empathy; INTP leans toward a spontaneous lifestyle, ISFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INTP", "ISFP"],
+    "types": [
+      "INTP",
+      "ISFP"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both prefer Perceiving (flexibility).",
     "differences": "INTP prefers abstract ideas, ISFP prefers concrete details; INTP makes decisions based on logic, ISFP based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTP", "ESFJ"],
+    "types": [
+      "INTP",
+      "ESFJ"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "INTP is introverted while ESFJ is extraverted; INTP prefers abstract ideas, ESFJ prefers concrete details; INTP makes decisions based on logic, ESFJ based on values/empathy; INTP leans toward a spontaneous lifestyle, ESFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["INTP", "ESFP"],
+    "types": [
+      "INTP",
+      "ESFP"
+    ],
     "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
     "differences": "INTP is introverted while ESFP is extraverted; INTP prefers abstract ideas, ESFP prefers concrete details; INTP makes decisions based on logic, ESFP based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INTP", "ISTJ"],
+    "types": [
+      "INTP",
+      "ISTJ"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both use Thinking in decisions.",
     "differences": "INTP prefers abstract ideas, ISTJ prefers concrete details; INTP leans toward a spontaneous lifestyle, ISTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["INTP", "ISTP"],
+    "types": [
+      "INTP",
+      "ISTP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both use Thinking in decisions, both prefer Perceiving (flexibility).",
     "differences": "INTP prefers abstract ideas, ISTP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["INTP", "ESTJ"],
+    "types": [
+      "INTP",
+      "ESTJ"
+    ],
     "similarities": "They share 1 preference: both use Thinking in decisions.",
     "differences": "INTP is introverted while ESTJ is extraverted; INTP prefers abstract ideas, ESTJ prefers concrete details; INTP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["INTP", "ESTP"],
+    "types": [
+      "INTP",
+      "ESTP"
+    ],
     "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Perceiving (flexibility).",
     "differences": "INTP is introverted while ESTP is extraverted; INTP prefers abstract ideas, ESTP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTJ", "ENTP"],
+    "types": [
+      "ENTJ",
+      "ENTP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both use Thinking in decisions.",
     "differences": "ENTJ leans toward a structured lifestyle, ENTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENTJ", "ISFJ"],
+    "types": [
+      "ENTJ",
+      "ISFJ"
+    ],
     "similarities": "They share 1 preference: both prefer Judging (structure).",
     "differences": "ENTJ is extraverted while ISFJ is introverted; ENTJ prefers abstract ideas, ISFJ prefers concrete details; ENTJ makes decisions based on logic, ISFJ based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENTJ", "ISFP"],
+    "types": [
+      "ENTJ",
+      "ISFP"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "ENTJ is extraverted while ISFP is introverted; ENTJ prefers abstract ideas, ISFP prefers concrete details; ENTJ makes decisions based on logic, ISFP based on values/empathy; ENTJ leans toward a structured lifestyle, ISFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["ENTJ", "ESFJ"],
+    "types": [
+      "ENTJ",
+      "ESFJ"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both prefer Judging (structure).",
     "differences": "ENTJ prefers abstract ideas, ESFJ prefers concrete details; ENTJ makes decisions based on logic, ESFJ based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTJ", "ESFP"],
+    "types": [
+      "ENTJ",
+      "ESFP"
+    ],
     "similarities": "They share 1 preference: both are Extraverted.",
     "differences": "ENTJ prefers abstract ideas, ESFP prefers concrete details; ENTJ makes decisions based on logic, ESFP based on values/empathy; ENTJ leans toward a structured lifestyle, ESFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENTJ", "ISTJ"],
+    "types": [
+      "ENTJ",
+      "ISTJ"
+    ],
     "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Judging (structure).",
     "differences": "ENTJ is extraverted while ISTJ is introverted; ENTJ prefers abstract ideas, ISTJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTJ", "ISTP"],
+    "types": [
+      "ENTJ",
+      "ISTP"
+    ],
     "similarities": "They share 1 preference: both use Thinking in decisions.",
     "differences": "ENTJ is extraverted while ISTP is introverted; ENTJ prefers abstract ideas, ISTP prefers concrete details; ENTJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENTJ", "ESTJ"],
+    "types": [
+      "ENTJ",
+      "ESTJ"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both use Thinking in decisions, both prefer Judging (structure).",
     "differences": "ENTJ prefers abstract ideas, ESTJ prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ENTJ", "ESTP"],
+    "types": [
+      "ENTJ",
+      "ESTP"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both use Thinking in decisions.",
     "differences": "ENTJ prefers abstract ideas, ESTP prefers concrete details; ENTJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTP", "ISFJ"],
+    "types": [
+      "ENTP",
+      "ISFJ"
+    ],
     "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
     "differences": "ENTP is extraverted while ISFJ is introverted; ENTP prefers abstract ideas, ISFJ prefers concrete details; ENTP makes decisions based on logic, ISFJ based on values/empathy; ENTP leans toward a spontaneous lifestyle, ISFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can struggle significantly to align without conscious effort.",
-    "compatibility": "disaster"
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
   },
   {
-    "types": ["ENTP", "ISFP"],
+    "types": [
+      "ENTP",
+      "ISFP"
+    ],
     "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
     "differences": "ENTP is extraverted while ISFP is introverted; ENTP prefers abstract ideas, ISFP prefers concrete details; ENTP makes decisions based on logic, ISFP based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENTP", "ESFJ"],
+    "types": [
+      "ENTP",
+      "ESFJ"
+    ],
     "similarities": "They share 1 preference: both are Extraverted.",
     "differences": "ENTP prefers abstract ideas, ESFJ prefers concrete details; ENTP makes decisions based on logic, ESFJ based on values/empathy; ENTP leans toward a spontaneous lifestyle, ESFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENTP", "ESFP"],
+    "types": [
+      "ENTP",
+      "ESFP"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both prefer Perceiving (flexibility).",
     "differences": "ENTP prefers abstract ideas, ESFP prefers concrete details; ENTP makes decisions based on logic, ESFP based on values/empathy.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTP", "ISTJ"],
+    "types": [
+      "ENTP",
+      "ISTJ"
+    ],
     "similarities": "They share 1 preference: both use Thinking in decisions.",
     "differences": "ENTP is extraverted while ISTJ is introverted; ENTP prefers abstract ideas, ISTJ prefers concrete details; ENTP leans toward a spontaneous lifestyle, ISTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ENTP", "ISTP"],
+    "types": [
+      "ENTP",
+      "ISTP"
+    ],
     "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Perceiving (flexibility).",
     "differences": "ENTP is extraverted while ISTP is introverted; ENTP prefers abstract ideas, ISTP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTP", "ESTJ"],
+    "types": [
+      "ENTP",
+      "ESTJ"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both use Thinking in decisions.",
     "differences": "ENTP prefers abstract ideas, ESTJ prefers concrete details; ENTP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ENTP", "ESTP"],
+    "types": [
+      "ENTP",
+      "ESTP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both use Thinking in decisions, both prefer Perceiving (flexibility).",
     "differences": "ENTP prefers abstract ideas, ESTP prefers concrete details.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISFJ", "ISFP"],
+    "types": [
+      "ISFJ",
+      "ISFP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both use Feeling in decisions.",
     "differences": "ISFJ leans toward a structured lifestyle, ISFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISFJ", "ESFJ"],
+    "types": [
+      "ISFJ",
+      "ESFJ"
+    ],
     "similarities": "They share 3 preferences: both focus on Sensing, both use Feeling in decisions, both prefer Judging (structure).",
     "differences": "ISFJ is introverted while ESFJ is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISFJ", "ESFP"],
+    "types": [
+      "ISFJ",
+      "ESFP"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both use Feeling in decisions.",
     "differences": "ISFJ is introverted while ESFP is extraverted; ISFJ leans toward a structured lifestyle, ESFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISFJ", "ISTJ"],
+    "types": [
+      "ISFJ",
+      "ISTJ"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both prefer Judging (structure).",
     "differences": "ISFJ makes decisions based on values/empathy, ISTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISFJ", "ISTP"],
+    "types": [
+      "ISFJ",
+      "ISTP"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both focus on Sensing.",
     "differences": "ISFJ makes decisions based on values/empathy, ISTP based on logic; ISFJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISFJ", "ESTJ"],
+    "types": [
+      "ISFJ",
+      "ESTJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both prefer Judging (structure).",
     "differences": "ISFJ is introverted while ESTJ is extraverted; ISFJ makes decisions based on values/empathy, ESTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISFJ", "ESTP"],
+    "types": [
+      "ISFJ",
+      "ESTP"
+    ],
     "similarities": "They share 1 preference: both focus on Sensing.",
     "differences": "ISFJ is introverted while ESTP is extraverted; ISFJ makes decisions based on values/empathy, ESTP based on logic; ISFJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ISFP", "ESFJ"],
+    "types": [
+      "ISFP",
+      "ESFJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both use Feeling in decisions.",
     "differences": "ISFP is introverted while ESFJ is extraverted; ISFP leans toward a spontaneous lifestyle, ESFJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISFP", "ESFP"],
+    "types": [
+      "ISFP",
+      "ESFP"
+    ],
     "similarities": "They share 3 preferences: both focus on Sensing, both use Feeling in decisions, both prefer Perceiving (flexibility).",
     "differences": "ISFP is introverted while ESFP is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISFP", "ISTJ"],
+    "types": [
+      "ISFP",
+      "ISTJ"
+    ],
     "similarities": "They share 2 preferences: both are Introverted, both focus on Sensing.",
     "differences": "ISFP makes decisions based on values/empathy, ISTJ based on logic; ISFP leans toward a spontaneous lifestyle, ISTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISFP", "ISTP"],
+    "types": [
+      "ISFP",
+      "ISTP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both prefer Perceiving (flexibility).",
     "differences": "ISFP makes decisions based on values/empathy, ISTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISFP", "ESTJ"],
+    "types": [
+      "ISFP",
+      "ESTJ"
+    ],
     "similarities": "They share 1 preference: both focus on Sensing.",
     "differences": "ISFP is introverted while ESTJ is extraverted; ISFP makes decisions based on values/empathy, ESTJ based on logic; ISFP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ISFP", "ESTP"],
+    "types": [
+      "ISFP",
+      "ESTP"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both prefer Perceiving (flexibility).",
     "differences": "ISFP is introverted while ESTP is extraverted; ISFP makes decisions based on values/empathy, ESTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ESFJ", "ESFP"],
+    "types": [
+      "ESFJ",
+      "ESFP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both use Feeling in decisions.",
     "differences": "ESFJ leans toward a structured lifestyle, ESFP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ESFJ", "ISTJ"],
+    "types": [
+      "ESFJ",
+      "ISTJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both prefer Judging (structure).",
     "differences": "ESFJ is extraverted while ISTJ is introverted; ESFJ makes decisions based on values/empathy, ISTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ESFJ", "ISTP"],
+    "types": [
+      "ESFJ",
+      "ISTP"
+    ],
     "similarities": "They share 1 preference: both focus on Sensing.",
     "differences": "ESFJ is extraverted while ISTP is introverted; ESFJ makes decisions based on values/empathy, ISTP based on logic; ESFJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ESFJ", "ESTJ"],
+    "types": [
+      "ESFJ",
+      "ESTJ"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both prefer Judging (structure).",
     "differences": "ESFJ makes decisions based on values/empathy, ESTJ based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ESFJ", "ESTP"],
+    "types": [
+      "ESFJ",
+      "ESTP"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both focus on Sensing.",
     "differences": "ESFJ makes decisions based on values/empathy, ESTP based on logic; ESFJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ESFP", "ISTJ"],
+    "types": [
+      "ESFP",
+      "ISTJ"
+    ],
     "similarities": "They share 1 preference: both focus on Sensing.",
     "differences": "ESFP is extraverted while ISTJ is introverted; ESFP makes decisions based on values/empathy, ISTJ based on logic; ESFP leans toward a spontaneous lifestyle, ISTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding.",
-    "compatibility": "bad"
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
   },
   {
-    "types": ["ESFP", "ISTP"],
+    "types": [
+      "ESFP",
+      "ISTP"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both prefer Perceiving (flexibility).",
     "differences": "ESFP is extraverted while ISTP is introverted; ESFP makes decisions based on values/empathy, ISTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ESFP", "ESTJ"],
+    "types": [
+      "ESFP",
+      "ESTJ"
+    ],
     "similarities": "They share 2 preferences: both are Extraverted, both focus on Sensing.",
     "differences": "ESFP makes decisions based on values/empathy, ESTJ based on logic; ESFP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ESFP", "ESTP"],
+    "types": [
+      "ESFP",
+      "ESTP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both prefer Perceiving (flexibility).",
     "differences": "ESFP makes decisions based on values/empathy, ESTP based on logic.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISTJ", "ISTP"],
+    "types": [
+      "ISTJ",
+      "ISTP"
+    ],
     "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both use Thinking in decisions.",
     "differences": "ISTJ leans toward a structured lifestyle, ISTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISTJ", "ESTJ"],
+    "types": [
+      "ISTJ",
+      "ESTJ"
+    ],
     "similarities": "They share 3 preferences: both focus on Sensing, both use Thinking in decisions, both prefer Judging (structure).",
     "differences": "ISTJ is introverted while ESTJ is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ISTJ", "ESTP"],
+    "types": [
+      "ISTJ",
+      "ESTP"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both use Thinking in decisions.",
     "differences": "ISTJ is introverted while ESTP is extraverted; ISTJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISTP", "ESTJ"],
+    "types": [
+      "ISTP",
+      "ESTJ"
+    ],
     "similarities": "They share 2 preferences: both focus on Sensing, both use Thinking in decisions.",
     "differences": "ISTP is introverted while ESTJ is extraverted; ISTP leans toward a spontaneous lifestyle, ESTJ tends to be structured.",
-    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
-    "compatibility": "fine"
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
   },
   {
-    "types": ["ISTP", "ESTP"],
+    "types": [
+      "ISTP",
+      "ESTP"
+    ],
     "similarities": "They share 3 preferences: both focus on Sensing, both use Thinking in decisions, both prefer Perceiving (flexibility).",
     "differences": "ISTP is introverted while ESTP is extraverted.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   },
   {
-    "types": ["ESTJ", "ESTP"],
+    "types": [
+      "ESTJ",
+      "ESTP"
+    ],
     "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both use Thinking in decisions.",
     "differences": "ESTJ leans toward a structured lifestyle, ESTP tends to be spontaneous.",
-    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
-    "compatibility": "good"
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
   }
 ]

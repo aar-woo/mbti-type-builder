@@ -62,18 +62,16 @@ function compareTypes(type1, type2) {
 
   // Determine compatibility rating
   let compatibility;
-  if (overlapCount === 4) {
-    compatibility = "ideal"; // actually same type; you may skip self-pair
-  } else if (oppositeAll) {
-    compatibility = "disaster";
+  if (oppositeAll) {
+    compatibility = "Bad";
   } else if (overlapCount === 3) {
-    compatibility = "good";
+    compatibility = "Great";
   } else if (overlapCount === 2) {
-    compatibility = "fine";
+    compatibility = "Good";
   } else if (overlapCount === 1) {
-    compatibility = "bad";
+    compatibility = "Fine";
   } else {
-    compatibility = "disaster";
+    compatibility = "Bad";
   }
 
   // Build similarity sentence
@@ -147,15 +145,13 @@ function compareTypes(type1, type2) {
 
   // Summary: combine
   const summary = `Because of these overlaps and contrasts, they can ${
-    compatibility === "ideal"
+    compatibility === "Great"
       ? "often understand each other deeply"
-      : compatibility === "good"
+      : compatibility === "Good"
       ? "find common ground while needing occasional adjustment"
-      : compatibility === "fine"
+      : compatibility === "Fine"
       ? "get along but may need effort to bridge differences"
-      : compatibility === "bad"
-      ? "face notable friction unless they work on understanding"
-      : "struggle significantly to align without conscious effort"
+      : "face notable friction unless they work on understanding each other with conscious effort"
   }.`;
 
   return {
