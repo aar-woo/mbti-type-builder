@@ -5,6 +5,7 @@ import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
 import CompareIcon from "@mui/icons-material/Compare";
 import { useState } from "react";
 import CompareTypeDialog from "./CompareTypeDialog";
+import ClearIcon from "@mui/icons-material/Clear";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
@@ -99,7 +100,7 @@ const PersonalityTypeInfo = ({
           </Typography>
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
-        {isInitialType && (
+        {isInitialType ? (
           <CompareButton
             variant="contained"
             color="primary"
@@ -108,6 +109,17 @@ const PersonalityTypeInfo = ({
           >
             Compare
           </CompareButton>
+        ) : (
+          <ClearIcon
+            sx={{
+              position: "absolute",
+              top: 20,
+              right: 20,
+              textDecoration: "none",
+              cursor: "pointer",
+            }}
+            onClick={(type) => onCompareTypeSelect(null)}
+          />
         )}
       </InfoHeaderContainer>
       <Box>

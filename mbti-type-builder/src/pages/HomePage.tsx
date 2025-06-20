@@ -27,7 +27,7 @@ const HomePage = () => {
     });
   };
 
-  const handleCompareTypeSelect = (type: PersonalityType) => {
+  const handleCompareTypeSelect = (type: PersonalityType | null) => {
     setCompareType(type);
   };
 
@@ -80,7 +80,10 @@ const HomePage = () => {
         {compareType && personalityType !== compareType && (
           <>
             <TypeComparison type={personalityType} compareType={compareType} />
-            <PersonalityTypeInfo type={compareType} />
+            <PersonalityTypeInfo
+              type={compareType}
+              onCompareTypeSelect={handleCompareTypeSelect}
+            />
           </>
         )}
       </Box>
