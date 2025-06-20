@@ -38,10 +38,7 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
       <Typography variant="h4" sx={{ textDecoration: "underline" }}>
         Comparison
       </Typography>
-      <Box>
-        <Typography variant="h5">Summary</Typography>
-        <Typography>{comparisonData.summary}</Typography>
-      </Box>
+
       <Box>
         <Typography variant="h5">Similarities</Typography>
         <Typography>{comparisonData.similarities}</Typography>
@@ -49,6 +46,10 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
       <Box>
         <Typography variant="h5">Differences</Typography>
         <Typography>{comparisonData.differences}</Typography>
+      </Box>
+      <Box>
+        <Typography variant="h5">Summary</Typography>
+        <Typography>{comparisonData.summary}</Typography>
       </Box>
       <Box>
         <Typography variant="h5">Compatibility</Typography>

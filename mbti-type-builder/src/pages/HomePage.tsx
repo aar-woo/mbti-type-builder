@@ -77,10 +77,12 @@ const HomePage = () => {
             onCompareTypeSelect={handleCompareTypeSelect}
           />
         )}
-        {compareType && (
-          <TypeComparison type={personalityType} compareType={compareType} />
+        {compareType && personalityType !== compareType && (
+          <>
+            <TypeComparison type={personalityType} compareType={compareType} />
+            <PersonalityTypeInfo type={compareType} />
+          </>
         )}
-        {compareType && <PersonalityTypeInfo type={compareType} />}
       </Box>
     </Box>
   );
