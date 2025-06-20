@@ -42,7 +42,6 @@ function compareTypes(type1, type2) {
   // Count overlap and track positions
   let overlapCount = 0;
   let samePrefs = [];
-  let diffPrefs = [];
   let oppositeAll = true;
   for (let i = 0; i < 4; i++) {
     const a = type1[i],
@@ -56,7 +55,6 @@ function compareTypes(type1, type2) {
       if (!isOppositeLetter(a, b)) {
         oppositeAll = false;
       }
-      diffPrefs.push({ pos: i, pair: [a, b] });
     }
   }
 
@@ -108,41 +106,6 @@ function compareTypes(type1, type2) {
       "They have no letter preferences in common, making their basic approaches quite different.";
   }
 
-  // Build differences sentence(s)
-  let differencesParts = diffPrefs.map((dp) => {
-    const [a, b] = dp.pair;
-    // Describe difference in human-friendly terms per position
-    switch (dp.pos) {
-      case 0: // I/E
-        return `${type1} is ${
-          a === "I" ? "introverted" : "extraverted"
-        } while ${type2} is ${b === "I" ? "introverted" : "extraverted"}`;
-      case 1: // N/S
-        return (
-          `${type1} ${
-            a === "N" ? "prefers abstract ideas" : "prefers concrete details"
-          }, ` +
-          `${type2} ${
-            b === "N" ? "prefers abstract ideas" : "prefers concrete details"
-          }`
-        );
-      case 2: // T/F
-        return (
-          `${type1} makes decisions based on ${
-            a === "T" ? "logic" : "values/empathy"
-          }, ` + `${type2} based on ${b === "T" ? "logic" : "values/empathy"}`
-        );
-      case 3: // J/P
-        return (
-          `${type1} leans toward a ${
-            a === "J" ? "structured" : "spontaneous"
-          } lifestyle, ` +
-          `${type2} tends to be ${b === "J" ? "structured" : "spontaneous"}`
-        );
-    }
-  });
-  const differences = differencesParts.join("; ") + ".";
-
   // Summary: combine
   const summary = `Because of these overlaps and contrasts, they can ${
     compatibility === "Great"
@@ -157,7 +120,6 @@ function compareTypes(type1, type2) {
   return {
     types: [type1, type2],
     similarities,
-    differences,
     summary,
     compatibility,
   };

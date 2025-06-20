@@ -50,6 +50,52 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
     }
   };
 
+  let diffPrefs = [];
+  for (let i = 0; i < 4; i++) {
+    const a = type[i],
+      b = compareType[i];
+    if (a !== b) {
+      diffPrefs.push({ pos: i, pair: [a, b] });
+    }
+  }
+
+  let differencesParts = diffPrefs.map((dp) => {
+    const [a, b] = dp.pair;
+
+    switch (dp.pos) {
+      case 0: // I/E
+        return `${type} is ${
+          a === "I" ? "introverted" : "extraverted"
+        } while ${compareType} is ${b === "I" ? "introverted" : "extraverted"}`;
+      case 1: // N/S
+        return (
+          `${type} ${
+            a === "N" ? "prefers abstract ideas" : "prefers concrete details"
+          }, ` +
+          `${compareType} ${
+            b === "N" ? "prefers abstract ideas" : "prefers concrete details"
+          }`
+        );
+      case 2: // T/F
+        return (
+          `${type} makes decisions based on ${
+            a === "T" ? "logic" : "values/empathy"
+          }, ` +
+          `${compareType} based on ${b === "T" ? "logic" : "values/empathy"}`
+        );
+      case 3: // J/P
+        return (
+          `${type} leans toward a ${
+            a === "J" ? "structured" : "spontaneous"
+          } lifestyle, ` +
+          `${compareType} tends to be ${
+            b === "J" ? "structured" : "spontaneous"
+          }`
+        );
+    }
+  });
+  const differences = differencesParts.join("; ") + ".";
+
   return (
     <TypeComparisonContainer>
       <Typography variant="h4" sx={{ textDecoration: "underline" }}>
@@ -62,7 +108,7 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
       </Box>
       <Box>
         <Typography variant="h5">Differences</Typography>
-        <Typography>{comparisonData.differences}</Typography>
+        <Typography>{differences}</Typography>
       </Box>
       <Box>
         <Typography variant="h5">Summary</Typography>
