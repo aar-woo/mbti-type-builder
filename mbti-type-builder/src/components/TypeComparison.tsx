@@ -1,6 +1,10 @@
 import { Box, styled, Typography } from "@mui/material";
 import { PersonalityType } from "../types/personalityTypes";
 import mbtiPairwiseComparisons from "../mbti_pairwise_comparisons.json";
+import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfied";
+import SentimentSatisfiedIcon from "@mui/icons-material/SentimentSatisfied";
+import SentimentNeutralIcon from "@mui/icons-material/SentimentNeutral";
+import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied";
 
 const TypeComparisonContainer = styled(Box)`
   display: flex;
@@ -32,7 +36,20 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
       comparisonData = comparison;
     }
   }
-  console.log("comparison: ", comparisonData);
+
+  const compatibilityIcon = () => {
+    switch (comparisonData.compatibility) {
+      case "Great":
+        return <SentimentVerySatisfiedIcon fontSize="large" />;
+      case "Good":
+        return <SentimentSatisfiedIcon fontSize="large" />;
+      case "Fine":
+        return <SentimentNeutralIcon fontSize="large" />;
+      case "Bad":
+        return <SentimentDissatisfiedIcon fontSize="large" />;
+    }
+  };
+
   return (
     <TypeComparisonContainer>
       <Typography variant="h4" sx={{ textDecoration: "underline" }}>
@@ -53,6 +70,7 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
       </Box>
       <Box>
         <Typography variant="h5">Compatibility</Typography>
+        {compatibilityIcon()}
         <Typography>{comparisonData.compatibility}</Typography>
       </Box>
     </TypeComparisonContainer>
