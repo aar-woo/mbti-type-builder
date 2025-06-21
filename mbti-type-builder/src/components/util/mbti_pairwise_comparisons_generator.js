@@ -120,6 +120,7 @@ function compareTypes(type1, type2) {
   return {
     types: [type1, type2],
     similarities,
+    samePrefs,
     summary,
     compatibility,
   };

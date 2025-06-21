@@ -5,6 +5,12 @@ import SentimentVerySatisfiedIcon from "@mui/icons-material/SentimentVerySatisfi
 import SentimentSatisfiedIcon from "@mui/icons-material/SentimentSatisfied";
 import SentimentNeutralIcon from "@mui/icons-material/SentimentNeutral";
 import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied";
+import BoltIcon from "@mui/icons-material/Bolt";
+import PsychologyIcon from "@mui/icons-material/Psychology";
+import CallSplitIcon from "@mui/icons-material/CallSplit";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
+import { letterTheme } from "../colors";
+import LetterType from "../types/letterTypes";
 
 const TypeComparisonContainer = styled(Box)`
   display: flex;
@@ -96,18 +102,62 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
   });
   const differences = differencesParts.join("; ") + ".";
 
+  const dichotomyIcons = (dichotomyLetter: LetterType) => {
+    switch (dichotomyLetter) {
+      case "I":
+      case "E":
+        return (
+          <BoltIcon
+            fontSize="large"
+            sx={{ color: letterTheme.palette.energy.dark }}
+          />
+        );
+      case "N":
+      case "S":
+        return (
+          <PsychologyIcon
+            fontSize="large"
+            sx={{ color: letterTheme.palette.information.main }}
+          />
+        );
+      case "T":
+      case "F":
+        return (
+          <CallSplitIcon
+            fontSize="large"
+            sx={{ color: letterTheme.palette.decision.main }}
+          />
+        );
+      case "J":
+      case "P":
+        return (
+          <EmojiPeopleIcon
+            fontSize="large"
+            sx={{ color: letterTheme.palette.orientation.main }}
+          />
+        );
+    }
+  };
+
   return (
     <TypeComparisonContainer>
       <Typography variant="h4" sx={{ textDecoration: "underline" }}>
         Comparison
       </Typography>
-
       <Box>
         <Typography variant="h5">Similarities</Typography>
+        <Box>
+          {comparisonData.samePrefs.map((pref) => {
+            return dichotomyIcons(pref);
+          })}
+        </Box>
         <Typography>{comparisonData.similarities}</Typography>
       </Box>
       <Box>
         <Typography variant="h5">Differences</Typography>
+        {diffPrefs.map((pref) => {
+          return dichotomyIcons(pref.pair[0]);
+        })}
         <Typography>{differences}</Typography>
       </Box>
       <Box>
