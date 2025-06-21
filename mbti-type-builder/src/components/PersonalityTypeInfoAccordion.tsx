@@ -14,7 +14,7 @@ const AccordionHeader = styled(Typography)`
 `;
 
 const InfoAccordion = styled(Accordion)`
-  width: 600px;
+  max-width: 600px;
 `;
 
 type PersonaltiyTypeInfoAccordionProps = {
@@ -27,7 +27,7 @@ const PersonalityTypeInfoAccordion = ({
   details,
 }: PersonaltiyTypeInfoAccordionProps) => {
   return (
-    <InfoAccordion sx={{ width: "600px" }}>
+    <InfoAccordion>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <AccordionHeader>{title}</AccordionHeader>
       </AccordionSummary>

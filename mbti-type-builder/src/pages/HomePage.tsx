@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import TypesSelect from "../components/TypesSelect.tsx";
 import TypeAggregate from "../components/TypeAggregate/TypeAggregate.tsx";
 import LetterType, {
@@ -8,6 +8,7 @@ import LetterType, {
 import { Box } from "@mui/material";
 import PersonalityTypeInfo from "../components/PersonalityTypeInfo.tsx";
 import { PersonalityType } from "../types/personalityTypes.tsx";
+import TypeComparison from "../components/TypeComparison.tsx";
 
 const HomePage = () => {
   const [dichotomies, setDichotomies] = useState<LetterTypeDichotomies>({
@@ -18,11 +19,16 @@ const HomePage = () => {
   });
   const [personalityType, setPersonalityType] =
     useState<PersonalityType | null>(null);
+  const [compareType, setCompareType] = useState<PersonalityType | null>(null);
 
   const handleLetterPieceClick = (dichotomy: Dichotomy, letter: LetterType) => {
     setDichotomies((dichotomies: LetterTypeDichotomies) => {
       return { ...dichotomies, [dichotomy]: letter };
     });
+  };
+
+  const handleCompareTypeSelect = (type: PersonalityType | null) => {
+    setCompareType(type);
   };
 
   useEffect(() => {
@@ -40,6 +46,12 @@ const HomePage = () => {
     setPersonalityType(type as PersonalityType);
   }, [dichotomies]);
 
+  const typeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    typeRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [personalityType, compareType]);
+
   return (
     <Box
       sx={{
@@ -54,7 +66,34 @@ const HomePage = () => {
         dichotomies={dichotomies}
         onLetterPieceClick={handleLetterPieceClick}
       />
-      {personalityType && <PersonalityTypeInfo type={personalityType} />}
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "1rem",
+          width: "100%",
+        }}
+      >
+        {personalityType && (
+          <PersonalityTypeInfo
+            type={personalityType}
+            compareType={compareType}
+            isInitialType={true}
+            onCompareTypeSelect={handleCompareTypeSelect}
+          />
+        )}
+        {compareType && personalityType !== compareType && (
+          <>
+            <TypeComparison type={personalityType} compareType={compareType} />
+            <PersonalityTypeInfo
+              type={compareType}
+              onCompareTypeSelect={handleCompareTypeSelect}
+            />
+          </>
+        )}
+      </Box>
+      <Box ref={typeRef} />
     </Box>
   );
 };

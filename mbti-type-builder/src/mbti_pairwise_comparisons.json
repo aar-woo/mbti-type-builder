@@ -1,0 +1,1538 @@
+[
+  {
+    "types": [
+      "INFJ",
+      "INFP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both use Feeling in decisions.",
+    "samePrefs": [
+      "I",
+      "N",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ENFJ"
+    ],
+    "similarities": "They share 3 preferences: both focus on Intuition, both use Feeling in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "N",
+      "F",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ENFP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both use Feeling in decisions.",
+    "samePrefs": [
+      "N",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFJ",
+      "INTJ"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both prefer Judging (structure).",
+    "samePrefs": [
+      "I",
+      "N",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFJ",
+      "INTP"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both focus on Intuition.",
+    "samePrefs": [
+      "I",
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ENTJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both prefer Judging (structure).",
+    "samePrefs": [
+      "N",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ENTP"
+    ],
+    "similarities": "They share 1 preference: both focus on Intuition.",
+    "samePrefs": [
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ISFJ"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both use Feeling in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "I",
+      "F",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ISFP"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both use Feeling in decisions.",
+    "samePrefs": [
+      "I",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ESFJ"
+    ],
+    "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "F",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ESFP"
+    ],
+    "similarities": "They share 1 preference: both use Feeling in decisions.",
+    "samePrefs": [
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ISTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both prefer Judging (structure).",
+    "samePrefs": [
+      "I",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ISTP"
+    ],
+    "similarities": "They share 1 preference: both are Introverted.",
+    "samePrefs": [
+      "I"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 1 preference: both prefer Judging (structure).",
+    "samePrefs": [
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFJ",
+      "ESTP"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "INFP",
+      "ENFJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both use Feeling in decisions.",
+    "samePrefs": [
+      "N",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFP",
+      "ENFP"
+    ],
+    "similarities": "They share 3 preferences: both focus on Intuition, both use Feeling in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "N",
+      "F",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFP",
+      "INTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both focus on Intuition.",
+    "samePrefs": [
+      "I",
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFP",
+      "INTP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "I",
+      "N",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFP",
+      "ENTJ"
+    ],
+    "similarities": "They share 1 preference: both focus on Intuition.",
+    "samePrefs": [
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFP",
+      "ENTP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "N",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFP",
+      "ISFJ"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both use Feeling in decisions.",
+    "samePrefs": [
+      "I",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFP",
+      "ISFP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both use Feeling in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "I",
+      "F",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INFP",
+      "ESFJ"
+    ],
+    "similarities": "They share 1 preference: both use Feeling in decisions.",
+    "samePrefs": [
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFP",
+      "ESFP"
+    ],
+    "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "F",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFP",
+      "ISTJ"
+    ],
+    "similarities": "They share 1 preference: both are Introverted.",
+    "samePrefs": [
+      "I"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INFP",
+      "ISTP"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "I",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INFP",
+      "ESTJ"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "INFP",
+      "ESTP"
+    ],
+    "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ENFP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both use Feeling in decisions.",
+    "samePrefs": [
+      "E",
+      "N",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "INTJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both prefer Judging (structure).",
+    "samePrefs": [
+      "N",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "INTP"
+    ],
+    "similarities": "They share 1 preference: both focus on Intuition.",
+    "samePrefs": [
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ENTJ"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both prefer Judging (structure).",
+    "samePrefs": [
+      "E",
+      "N",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ENTP"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both focus on Intuition.",
+    "samePrefs": [
+      "E",
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ISFJ"
+    ],
+    "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "F",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ISFP"
+    ],
+    "similarities": "They share 1 preference: both use Feeling in decisions.",
+    "samePrefs": [
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ESFJ"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both use Feeling in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "E",
+      "F",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ESFP"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both use Feeling in decisions.",
+    "samePrefs": [
+      "E",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ISTJ"
+    ],
+    "similarities": "They share 1 preference: both prefer Judging (structure).",
+    "samePrefs": [
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ISTP"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both prefer Judging (structure).",
+    "samePrefs": [
+      "E",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFJ",
+      "ESTP"
+    ],
+    "similarities": "They share 1 preference: both are Extraverted.",
+    "samePrefs": [
+      "E"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFP",
+      "INTJ"
+    ],
+    "similarities": "They share 1 preference: both focus on Intuition.",
+    "samePrefs": [
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFP",
+      "INTP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "N",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ENTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both focus on Intuition.",
+    "samePrefs": [
+      "E",
+      "N"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ENTP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "E",
+      "N",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ISFJ"
+    ],
+    "similarities": "They share 1 preference: both use Feeling in decisions.",
+    "samePrefs": [
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ISFP"
+    ],
+    "similarities": "They share 2 preferences: both use Feeling in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "F",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ESFJ"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both use Feeling in decisions.",
+    "samePrefs": [
+      "E",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ESFP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both use Feeling in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "E",
+      "F",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ISTJ"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ISTP"
+    ],
+    "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ESTJ"
+    ],
+    "similarities": "They share 1 preference: both are Extraverted.",
+    "samePrefs": [
+      "E"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENFP",
+      "ESTP"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "E",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTJ",
+      "INTP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Intuition, both use Thinking in decisions.",
+    "samePrefs": [
+      "I",
+      "N",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ENTJ"
+    ],
+    "similarities": "They share 3 preferences: both focus on Intuition, both use Thinking in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "N",
+      "T",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ENTP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both use Thinking in decisions.",
+    "samePrefs": [
+      "N",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ISFJ"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both prefer Judging (structure).",
+    "samePrefs": [
+      "I",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ISFP"
+    ],
+    "similarities": "They share 1 preference: both are Introverted.",
+    "samePrefs": [
+      "I"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ESFJ"
+    ],
+    "similarities": "They share 1 preference: both prefer Judging (structure).",
+    "samePrefs": [
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ESFP"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ISTJ"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both use Thinking in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "I",
+      "T",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ISTP"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both use Thinking in decisions.",
+    "samePrefs": [
+      "I",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "T",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTJ",
+      "ESTP"
+    ],
+    "similarities": "They share 1 preference: both use Thinking in decisions.",
+    "samePrefs": [
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INTP",
+      "ENTJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Intuition, both use Thinking in decisions.",
+    "samePrefs": [
+      "N",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTP",
+      "ENTP"
+    ],
+    "similarities": "They share 3 preferences: both focus on Intuition, both use Thinking in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "N",
+      "T",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INTP",
+      "ISFJ"
+    ],
+    "similarities": "They share 1 preference: both are Introverted.",
+    "samePrefs": [
+      "I"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INTP",
+      "ISFP"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "I",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTP",
+      "ESFJ"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "INTP",
+      "ESFP"
+    ],
+    "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INTP",
+      "ISTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both use Thinking in decisions.",
+    "samePrefs": [
+      "I",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "INTP",
+      "ISTP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both use Thinking in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "I",
+      "T",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "INTP",
+      "ESTJ"
+    ],
+    "similarities": "They share 1 preference: both use Thinking in decisions.",
+    "samePrefs": [
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "INTP",
+      "ESTP"
+    ],
+    "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "T",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ENTP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Intuition, both use Thinking in decisions.",
+    "samePrefs": [
+      "E",
+      "N",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ISFJ"
+    ],
+    "similarities": "They share 1 preference: both prefer Judging (structure).",
+    "samePrefs": [
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ISFP"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ESFJ"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both prefer Judging (structure).",
+    "samePrefs": [
+      "E",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ESFP"
+    ],
+    "similarities": "They share 1 preference: both are Extraverted.",
+    "samePrefs": [
+      "E"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ISTJ"
+    ],
+    "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "T",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ISTP"
+    ],
+    "similarities": "They share 1 preference: both use Thinking in decisions.",
+    "samePrefs": [
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both use Thinking in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "E",
+      "T",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ENTJ",
+      "ESTP"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both use Thinking in decisions.",
+    "samePrefs": [
+      "E",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ISFJ"
+    ],
+    "similarities": "They have no letter preferences in common, making their basic approaches quite different.",
+    "samePrefs": [],
+    "summary": "Because of these overlaps and contrasts, they can face notable friction unless they work on understanding each other with conscious effort.",
+    "compatibility": "Bad"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ISFP"
+    ],
+    "similarities": "They share 1 preference: both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ESFJ"
+    ],
+    "similarities": "They share 1 preference: both are Extraverted.",
+    "samePrefs": [
+      "E"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ESFP"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "E",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ISTJ"
+    ],
+    "similarities": "They share 1 preference: both use Thinking in decisions.",
+    "samePrefs": [
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ISTP"
+    ],
+    "similarities": "They share 2 preferences: both use Thinking in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "T",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ESTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both use Thinking in decisions.",
+    "samePrefs": [
+      "E",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ENTP",
+      "ESTP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both use Thinking in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "E",
+      "T",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ISFP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both use Feeling in decisions.",
+    "samePrefs": [
+      "I",
+      "S",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ESFJ"
+    ],
+    "similarities": "They share 3 preferences: both focus on Sensing, both use Feeling in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "S",
+      "F",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ESFP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both use Feeling in decisions.",
+    "samePrefs": [
+      "S",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ISTJ"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both prefer Judging (structure).",
+    "samePrefs": [
+      "I",
+      "S",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ISTP"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both focus on Sensing.",
+    "samePrefs": [
+      "I",
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both prefer Judging (structure).",
+    "samePrefs": [
+      "S",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISFJ",
+      "ESTP"
+    ],
+    "similarities": "They share 1 preference: both focus on Sensing.",
+    "samePrefs": [
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ISFP",
+      "ESFJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both use Feeling in decisions.",
+    "samePrefs": [
+      "S",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISFP",
+      "ESFP"
+    ],
+    "similarities": "They share 3 preferences: both focus on Sensing, both use Feeling in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "S",
+      "F",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISFP",
+      "ISTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Introverted, both focus on Sensing.",
+    "samePrefs": [
+      "I",
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISFP",
+      "ISTP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "I",
+      "S",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISFP",
+      "ESTJ"
+    ],
+    "similarities": "They share 1 preference: both focus on Sensing.",
+    "samePrefs": [
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ISFP",
+      "ESTP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "S",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ESFJ",
+      "ESFP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both use Feeling in decisions.",
+    "samePrefs": [
+      "E",
+      "S",
+      "F"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ESFJ",
+      "ISTJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both prefer Judging (structure).",
+    "samePrefs": [
+      "S",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ESFJ",
+      "ISTP"
+    ],
+    "similarities": "They share 1 preference: both focus on Sensing.",
+    "samePrefs": [
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ESFJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both prefer Judging (structure).",
+    "samePrefs": [
+      "E",
+      "S",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ESFJ",
+      "ESTP"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both focus on Sensing.",
+    "samePrefs": [
+      "E",
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ESFP",
+      "ISTJ"
+    ],
+    "similarities": "They share 1 preference: both focus on Sensing.",
+    "samePrefs": [
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can get along but may need effort to bridge differences.",
+    "compatibility": "Fine"
+  },
+  {
+    "types": [
+      "ESFP",
+      "ISTP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "S",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ESFP",
+      "ESTJ"
+    ],
+    "similarities": "They share 2 preferences: both are Extraverted, both focus on Sensing.",
+    "samePrefs": [
+      "E",
+      "S"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ESFP",
+      "ESTP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "E",
+      "S",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISTJ",
+      "ISTP"
+    ],
+    "similarities": "They share 3 preferences: both are Introverted, both focus on Sensing, both use Thinking in decisions.",
+    "samePrefs": [
+      "I",
+      "S",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISTJ",
+      "ESTJ"
+    ],
+    "similarities": "They share 3 preferences: both focus on Sensing, both use Thinking in decisions, both prefer Judging (structure).",
+    "samePrefs": [
+      "S",
+      "T",
+      "J"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ISTJ",
+      "ESTP"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both use Thinking in decisions.",
+    "samePrefs": [
+      "S",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISTP",
+      "ESTJ"
+    ],
+    "similarities": "They share 2 preferences: both focus on Sensing, both use Thinking in decisions.",
+    "samePrefs": [
+      "S",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can find common ground while needing occasional adjustment.",
+    "compatibility": "Good"
+  },
+  {
+    "types": [
+      "ISTP",
+      "ESTP"
+    ],
+    "similarities": "They share 3 preferences: both focus on Sensing, both use Thinking in decisions, both prefer Perceiving (flexibility).",
+    "samePrefs": [
+      "S",
+      "T",
+      "P"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  },
+  {
+    "types": [
+      "ESTJ",
+      "ESTP"
+    ],
+    "similarities": "They share 3 preferences: both are Extraverted, both focus on Sensing, both use Thinking in decisions.",
+    "samePrefs": [
+      "E",
+      "S",
+      "T"
+    ],
+    "summary": "Because of these overlaps and contrasts, they can often understand each other deeply.",
+    "compatibility": "Great"
+  }
+]

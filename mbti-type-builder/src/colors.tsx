@@ -20,15 +20,15 @@ declare module "@mui/material/styles" {
 const letterTheme = createTheme({
   palette: {
     energy: {
+      main: "#F9DD4D",
+      light: "#FCEFB0",
+      dark: "#F9C700",
+      contrastText: "#000",
+    },
+    information: {
       main: "#D94745",
       light: "#EA9B99",
       contrastText: "#fff",
-    },
-    information: {
-      main: "#F9DD4D",
-      light: "#FCEFB0",
-
-      contrastText: "#000",
     },
     decision: {
       main: "#06B178",

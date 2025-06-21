@@ -1,10 +1,15 @@
-import { Box, List, ListItem, styled, Typography } from "@mui/material";
+import { Box, Button, List, ListItem, styled, Typography } from "@mui/material";
 import mbtiTypesData from "../mbti_types_data.json";
 import { PersonalityType } from "../types/personalityTypes";
 import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
+import CompareIcon from "@mui/icons-material/Compare";
+import { useState } from "react";
+import CompareTypeDialog from "./CompareTypeDialog";
+import ClearIcon from "@mui/icons-material/Clear";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
@@ -53,17 +58,32 @@ const InfoHeaderTextContainer = styled(Box)`
   flex-direction: column;
   align-items: start;
   text-align: left;
-  width: 400px;
+  max-width: 400px;
+`;
+
+const CompareButton = styled(Button)`
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
 `;
 
 type PersonalityTypeInfoProps = {
   type: PersonalityType;
+  compareType?: PersonalityType;
+  isInitialType?: Boolean;
+  onCompareTypeSelect?: (type: PersonalityType) => void;
 };
 
-const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
+const PersonalityTypeInfo = ({
+  type,
+  compareType,
+  isInitialType,
+  onCompareTypeSelect,
+}: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
+  const [compareModalOpen, setCompareModalOpen] = useState<boolean>(false);
 
-  console.log(typeData.type.toLowerCase());
   return (
     <PersonalityTypeContainer>
       <InfoHeaderContainer>
@@ -80,6 +100,27 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
           </Typography>
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
+        {isInitialType ? (
+          <CompareButton
+            variant="contained"
+            color="primary"
+            startIcon={<CompareIcon />}
+            onClick={() => setCompareModalOpen((prev) => !prev)}
+          >
+            Compare
+          </CompareButton>
+        ) : (
+          <ClearIcon
+            sx={{
+              position: "absolute",
+              top: 20,
+              right: 20,
+              textDecoration: "none",
+              cursor: "pointer",
+            }}
+            onClick={(type) => onCompareTypeSelect(null)}
+          />
+        )}
       </InfoHeaderContainer>
       <Box>
         <PersonalityTypeInfoAccordion
@@ -95,6 +136,13 @@ const PersonalityTypeInfo = ({ type }: PersonalityTypeInfoProps) => {
           details={typeData.famousPeople}
         />
       </Box>
+      <CompareTypeDialog
+        isOpen={compareModalOpen}
+        initialType={type}
+        compareType={compareType}
+        onClose={() => setCompareModalOpen(false)}
+        onCompareTypeSelect={(type) => onCompareTypeSelect(type)}
+      />
     </PersonalityTypeContainer>
   );
 };
