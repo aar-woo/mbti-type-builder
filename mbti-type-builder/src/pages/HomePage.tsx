@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import TypesSelect from "../components/TypesSelect.tsx";
 import TypeAggregate from "../components/TypeAggregate/TypeAggregate.tsx";
 import LetterType, {
@@ -46,6 +46,12 @@ const HomePage = () => {
     setPersonalityType(type as PersonalityType);
   }, [dichotomies]);
 
+  const typeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    typeRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [personalityType, compareType]);
+
   return (
     <Box
       sx={{
@@ -87,6 +93,7 @@ const HomePage = () => {
           </>
         )}
       </Box>
+      <Box ref={typeRef} />
     </Box>
   );
 };
