@@ -15,6 +15,7 @@ const PersonalityTypeContainer = styled(Box)`
   gap: 1rem;
   margin-top: 1rem;
   width: 50%;
+  height: 100%;
   padding: 1rem;
   background-color: lightgrey;
   border-radius: 1rem;
