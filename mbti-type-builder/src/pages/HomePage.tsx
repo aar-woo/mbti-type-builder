@@ -95,7 +95,15 @@ const HomePage = () => {
               isInitialType={true}
               onCompareTypeSelect={handleCompareTypeSelect}
             />
-            <Box ref={typeRef} />
+            <Box
+              ref={typeRef}
+              sx={{
+                position: "absolute",
+                width: 0,
+                height: 0,
+                pointerEvents: "none",
+              }}
+            />
             <TypeComparison type={personalityType} compareType={compareType} />
             <PersonalityTypeInfo
               type={compareType}
@@ -113,7 +121,15 @@ const HomePage = () => {
           )
         )}
       </Box>
-      <Box ref={typeRef} />
+      <Box
+        ref={typeRef}
+        sx={{
+          position: "absolute",
+          width: 0,
+          height: 0,
+          pointerEvents: "none",
+        }}
+      />
     </Box>
   );
 };
