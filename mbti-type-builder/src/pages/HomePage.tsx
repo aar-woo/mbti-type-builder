@@ -49,12 +49,20 @@ const HomePage = () => {
   const typeRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (typeRef?.current && !compareType) {
+      requestAnimationFrame(() =>
+        typeRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+      );
+    }
+  }, [personalityType]);
+
+  useEffect(() => {
     if (typeRef?.current) {
       requestAnimationFrame(() =>
         typeRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
       );
     }
-  }, [personalityType, compareType]);
+  }, [compareType]);
 
   return (
     <Box
