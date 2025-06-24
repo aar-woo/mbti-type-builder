@@ -49,7 +49,11 @@ const HomePage = () => {
   const typeRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    typeRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (typeRef?.current) {
+      requestAnimationFrame(() =>
+        typeRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+      );
+    }
   }, [personalityType, compareType]);
 
   return (
@@ -75,22 +79,30 @@ const HomePage = () => {
           width: "100%",
         }}
       >
-        {personalityType && (
-          <PersonalityTypeInfo
-            type={personalityType}
-            compareType={compareType}
-            isInitialType={true}
-            onCompareTypeSelect={handleCompareTypeSelect}
-          />
-        )}
-        {compareType && personalityType !== compareType && (
+        {compareType && personalityType && compareType !== personalityType ? (
           <>
+            <PersonalityTypeInfo
+              type={personalityType}
+              compareType={compareType}
+              isInitialType={true}
+              onCompareTypeSelect={handleCompareTypeSelect}
+            />
+            <Box ref={typeRef} />
             <TypeComparison type={personalityType} compareType={compareType} />
             <PersonalityTypeInfo
               type={compareType}
               onCompareTypeSelect={handleCompareTypeSelect}
             />
           </>
+        ) : (
+          personalityType && (
+            <PersonalityTypeInfo
+              type={personalityType}
+              compareType={compareType}
+              isInitialType={true}
+              onCompareTypeSelect={handleCompareTypeSelect}
+            />
+          )
         )}
       </Box>
       <Box ref={typeRef} />
