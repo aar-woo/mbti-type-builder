@@ -9,6 +9,7 @@ import BoltIcon from "@mui/icons-material/Bolt";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import CallSplitIcon from "@mui/icons-material/CallSplit";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
+import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 import { letterTheme } from "../colors";
 import LetterType from "../types/letterTypes";
 
@@ -20,10 +21,15 @@ const TypeComparisonContainer = styled(Box)`
   gap: 1rem;
   margin-top: 1rem;
   width: 25%;
+  height: 100%;
   padding: 1rem;
   background-color: lightgrey;
   border-radius: 1rem;
   box-shadow: 12px 12px 12px -8px rgba(0, 0, 0, 0.75);
+`;
+
+const CompareSubHeader = styled(Typography)`
+  text-decoration: underline;
 `;
 
 type TypeComparisonProps = {
@@ -69,11 +75,11 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
     const [a, b] = dp.pair;
 
     switch (dp.pos) {
-      case 0: // I/E
+      case 0:
         return `${type} is ${
           a === "I" ? "introverted" : "extraverted"
         } while ${compareType} is ${b === "I" ? "introverted" : "extraverted"}`;
-      case 1: // N/S
+      case 1:
         return (
           `${type} ${
             a === "N" ? "prefers abstract ideas" : "prefers concrete details"
@@ -82,14 +88,14 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
             b === "N" ? "prefers abstract ideas" : "prefers concrete details"
           }`
         );
-      case 2: // T/F
+      case 2:
         return (
           `${type} makes decisions based on ${
             a === "T" ? "logic" : "values/empathy"
           }, ` +
           `${compareType} based on ${b === "T" ? "logic" : "values/empathy"}`
         );
-      case 3: // J/P
+      case 3:
         return (
           `${type} leans toward a ${
             a === "J" ? "structured" : "spontaneous"
@@ -144,8 +150,19 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
       <Typography variant="h4" sx={{ textDecoration: "underline" }}>
         Comparison
       </Typography>
+      <Box sx={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+        <img
+          src={`/images/${type.toLowerCase()}-avatar.png`}
+          style={{ width: "60px" }}
+        />
+        <CompareArrowsIcon />
+        <img
+          src={`/images/${compareType.toLowerCase()}-avatar.png`}
+          style={{ width: "60px" }}
+        />
+      </Box>
       <Box>
-        <Typography variant="h5">Similarities</Typography>
+        <CompareSubHeader variant="h5">Similarities</CompareSubHeader>
         <Box>
           {comparisonData.samePrefs.map((pref) => {
             return dichotomyIcons(pref);
@@ -154,18 +171,18 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
         <Typography>{comparisonData.similarities}</Typography>
       </Box>
       <Box>
-        <Typography variant="h5">Differences</Typography>
+        <CompareSubHeader variant="h5">Differences</CompareSubHeader>
         {diffPrefs.map((pref) => {
           return dichotomyIcons(pref.pair[0]);
         })}
         <Typography>{differences}</Typography>
       </Box>
       <Box>
-        <Typography variant="h5">Summary</Typography>
+        <CompareSubHeader variant="h5">Summary</CompareSubHeader>
         <Typography>{comparisonData.summary}</Typography>
       </Box>
       <Box>
-        <Typography variant="h5">Compatibility</Typography>
+        <CompareSubHeader variant="h5">Compatibility</CompareSubHeader>
         {compatibilityIcon()}
         <Typography>{comparisonData.compatibility}</Typography>
       </Box>

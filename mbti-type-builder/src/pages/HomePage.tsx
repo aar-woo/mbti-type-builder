@@ -49,8 +49,20 @@ const HomePage = () => {
   const typeRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    typeRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [personalityType, compareType]);
+    if (typeRef?.current && !compareType) {
+      requestAnimationFrame(() =>
+        typeRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+      );
+    }
+  }, [personalityType]);
+
+  useEffect(() => {
+    if (typeRef?.current) {
+      requestAnimationFrame(() =>
+        typeRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+      );
+    }
+  }, [compareType]);
 
   return (
     <Box
@@ -75,25 +87,49 @@ const HomePage = () => {
           width: "100%",
         }}
       >
-        {personalityType && (
-          <PersonalityTypeInfo
-            type={personalityType}
-            compareType={compareType}
-            isInitialType={true}
-            onCompareTypeSelect={handleCompareTypeSelect}
-          />
-        )}
-        {compareType && personalityType !== compareType && (
+        {compareType && personalityType && compareType !== personalityType ? (
           <>
+            <PersonalityTypeInfo
+              type={personalityType}
+              compareType={compareType}
+              isInitialType={true}
+              onCompareTypeSelect={handleCompareTypeSelect}
+            />
+            <Box
+              ref={typeRef}
+              sx={{
+                position: "absolute",
+                width: 0,
+                height: 0,
+                pointerEvents: "none",
+              }}
+            />
             <TypeComparison type={personalityType} compareType={compareType} />
             <PersonalityTypeInfo
               type={compareType}
               onCompareTypeSelect={handleCompareTypeSelect}
             />
           </>
+        ) : (
+          personalityType && (
+            <PersonalityTypeInfo
+              type={personalityType}
+              compareType={compareType}
+              isInitialType={true}
+              onCompareTypeSelect={handleCompareTypeSelect}
+            />
+          )
         )}
       </Box>
-      <Box ref={typeRef} />
+      <Box
+        ref={typeRef}
+        sx={{
+          position: "absolute",
+          width: 0,
+          height: 0,
+          pointerEvents: "none",
+        }}
+      />
     </Box>
   );
 };
