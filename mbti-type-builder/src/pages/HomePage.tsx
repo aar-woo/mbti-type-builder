@@ -43,6 +43,10 @@ const HomePage = () => {
       dichotomies.information +
       dichotomies.decision +
       dichotomies.orientation;
+
+    if (type === compareType) {
+      setCompareType(null);
+    }
     setPersonalityType(type as PersonalityType);
   }, [dichotomies]);
 
@@ -90,7 +94,7 @@ const HomePage = () => {
           paddingBottom: compareType && "2rem",
         }}
       >
-        {compareType && personalityType && compareType !== personalityType ? (
+        {compareType && personalityType ? (
           <>
             <PersonalityTypeInfo
               type={personalityType}
