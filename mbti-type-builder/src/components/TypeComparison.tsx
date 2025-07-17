@@ -19,8 +19,7 @@ const TypeComparisonContainer = styled(Box)`
   width: 25%;
   height: 100%;
   overflow: hidden;
-  max-height: 526px;
-  padding: 1rem 0.1rem 1rem 0.7rem;
+  padding: 1rem 0.7rem 1rem 0.7rem;
   background-color: lightgrey;
   border-radius: 1rem;
   box-shadow: 12px 12px 12px -8px rgba(0, 0, 0, 0.75);
@@ -28,7 +27,7 @@ const TypeComparisonContainer = styled(Box)`
 `;
 
 const ComparisonScrollContainer = styled(Box)`
-  max-height: 526px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -85,6 +85,9 @@ const HomePage = () => {
           justifyContent: "center",
           gap: "1rem",
           width: "100%",
+          height: compareType && "540px",
+          marginBottom: compareType && "2rem",
+          paddingBottom: compareType && "2rem",
         }}
       >
         {compareType && personalityType && compareType !== personalityType ? (
