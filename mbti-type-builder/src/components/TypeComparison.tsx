@@ -14,22 +14,35 @@ import { letterTheme } from "../colors";
 import LetterType from "../types/letterTypes";
 
 const TypeComparisonContainer = styled(Box)`
-  display: flex;
   position: relative;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
   margin-top: 1rem;
   width: 25%;
   height: 100%;
-  padding: 1rem;
+  overflow: hidden;
+  max-height: 526px;
+  padding: 1rem 0.1rem 1rem 0.7rem;
   background-color: lightgrey;
   border-radius: 1rem;
   box-shadow: 12px 12px 12px -8px rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+`;
+
+const ComparisonScrollContainer = styled(Box)`
+  max-height: 526px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: grey transparent;
 `;
 
 const CompareSubHeader = styled(Typography)`
   text-decoration: underline;
+`;
+
+const CompareText = styled(Typography)`
+  font-size: 0.8rem;
 `;
 
 type TypeComparisonProps = {
@@ -147,45 +160,47 @@ const TypeComparison = ({ type, compareType }: TypeComparisonProps) => {
 
   return (
     <TypeComparisonContainer>
-      <Typography variant="h4" sx={{ textDecoration: "underline" }}>
-        Comparison
-      </Typography>
-      <Box sx={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
-        <img
-          src={`/images/${type.toLowerCase()}-avatar.png`}
-          style={{ width: "60px" }}
-        />
-        <CompareArrowsIcon />
-        <img
-          src={`/images/${compareType.toLowerCase()}-avatar.png`}
-          style={{ width: "60px" }}
-        />
-      </Box>
-      <Box>
-        <CompareSubHeader variant="h5">Similarities</CompareSubHeader>
-        <Box>
-          {comparisonData.samePrefs.map((pref) => {
-            return dichotomyIcons(pref);
-          })}
+      <ComparisonScrollContainer>
+        <Typography variant="h4" sx={{ textDecoration: "underline" }}>
+          Comparison
+        </Typography>
+        <Box sx={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+          <img
+            src={`/images/${type.toLowerCase()}-avatar.png`}
+            style={{ width: "60px" }}
+          />
+          <CompareArrowsIcon />
+          <img
+            src={`/images/${compareType.toLowerCase()}-avatar.png`}
+            style={{ width: "60px" }}
+          />
         </Box>
-        <Typography>{comparisonData.similarities}</Typography>
-      </Box>
-      <Box>
-        <CompareSubHeader variant="h5">Differences</CompareSubHeader>
-        {diffPrefs.map((pref) => {
-          return dichotomyIcons(pref.pair[0]);
-        })}
-        <Typography>{differences}</Typography>
-      </Box>
-      <Box>
-        <CompareSubHeader variant="h5">Summary</CompareSubHeader>
-        <Typography>{comparisonData.summary}</Typography>
-      </Box>
-      <Box>
-        <CompareSubHeader variant="h5">Compatibility</CompareSubHeader>
-        {compatibilityIcon()}
-        <Typography>{comparisonData.compatibility}</Typography>
-      </Box>
+        <Box>
+          <CompareSubHeader variant="h5">Similarities</CompareSubHeader>
+          <Box>
+            {comparisonData.samePrefs.map((pref) => {
+              return dichotomyIcons(pref);
+            })}
+          </Box>
+          <CompareText>{comparisonData.similarities}</CompareText>
+        </Box>
+        <Box>
+          <CompareSubHeader variant="h5">Differences</CompareSubHeader>
+          {diffPrefs.map((pref) => {
+            return dichotomyIcons(pref.pair[0]);
+          })}
+          <CompareText>{differences}</CompareText>
+        </Box>
+        <Box>
+          <CompareSubHeader variant="h5">Summary</CompareSubHeader>
+          <CompareText>{comparisonData.summary}</CompareText>
+        </Box>
+        <Box>
+          <CompareSubHeader variant="h5">Compatibility</CompareSubHeader>
+          {compatibilityIcon()}
+          <CompareText>{comparisonData.compatibility}</CompareText>
+        </Box>
+      </ComparisonScrollContainer>
     </TypeComparisonContainer>
   );
 };

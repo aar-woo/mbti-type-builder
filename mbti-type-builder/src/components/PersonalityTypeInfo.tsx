@@ -22,28 +22,6 @@ const PersonalityTypeContainer = styled(Box)`
   box-shadow: 12px 12px 12px -8px rgba(0, 0, 0, 0.75);
 `;
 
-const InfoBodyContainer = styled(Box)`
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: space-between;
-  width: 80%;
-`;
-
-const InfoColumn = styled(Box)`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 33%;
-`;
-
-const AttributeListItem = styled(ListItem)`
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-`;
-
 const InfoHeaderContainer = styled(Box)`
   display: flex;
   flex-wrap: wrap;
