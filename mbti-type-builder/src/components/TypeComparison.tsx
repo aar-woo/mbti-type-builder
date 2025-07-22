@@ -28,6 +28,7 @@ const TypeComparisonContainer = styled(Box)`
 
 const ComparisonScrollContainer = styled(Box)`
   height: 100%;
+  max-height: 527px;
   display: flex;
   flex-direction: column;
   align-items: center;
