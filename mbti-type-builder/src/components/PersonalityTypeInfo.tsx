@@ -37,6 +37,7 @@ const InfoHeaderTextContainer = styled(Box)`
   flex-direction: column;
   align-items: start;
   text-align: left;
+  min-height: 137px;
   max-width: 400px;
 `;
 
