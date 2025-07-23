@@ -12,10 +12,9 @@ const PersonalityTypeContainer = styled(Box)`
   position: relative;
   flex-direction: column;
   align-items: center;
+  align-self: flex-start;
   gap: 1rem;
   margin-top: 1rem;
-  width: 50%;
-  height: 100%;
   padding: 1rem;
   background-color: lightgrey;
   border-radius: 1rem;

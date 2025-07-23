@@ -75,6 +75,7 @@ const HomePage = () => {
         flexDirection: "column",
         alignItems: "center",
         padding: "1rem",
+        textAlign: "center",
       }}
     >
       <TypeAggregate dichotomies={dichotomies} />
@@ -90,8 +91,6 @@ const HomePage = () => {
           gap: "1rem",
           width: "100%",
           minHeight: compareType && "540px",
-          marginBottom: compareType && "2rem",
-          paddingBottom: compareType && "2rem",
         }}
       >
         {compareType && personalityType ? (
