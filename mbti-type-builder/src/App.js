@@ -22,7 +22,10 @@ function App() {
       <Routes>
         <Route path="/" element={<LayoutContainer />}>
           <Route index element={<HomePage />} />
-          <Route path="test" element={<TypeCardPage />} />
+          <Route
+            path="/personality-type/:typeParam"
+            element={<TypeCardPage />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
