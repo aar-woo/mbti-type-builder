@@ -4,6 +4,7 @@ import TypeCardPage from "./pages/TypeCardPage.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import AppLayoutContainer from "./layout/AppLayoutContainer.tsx";
+import ErrorPage from "./pages/ErrorPage.tsx";
 
 function LayoutContainer() {
   return (
@@ -27,6 +28,7 @@ function App() {
             element={<TypeCardPage />}
           />
         </Route>
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
