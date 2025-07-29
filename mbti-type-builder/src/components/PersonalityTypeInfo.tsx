@@ -1,4 +1,4 @@
-import { Box, Button, List, ListItem, styled, Typography } from "@mui/material";
+import { Box, Button, Modal, styled, Typography } from "@mui/material";
 import mbtiTypesData from "../mbti_types_data.json";
 import { PersonalityType } from "../types/personalityTypes";
 import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
@@ -8,6 +8,8 @@ import CompareTypeDialog from "./CompareTypeDialog";
 import ClearIcon from "@mui/icons-material/Clear";
 import IosShareIcon from "@mui/icons-material/IosShare";
 import copyToClipboard from "../utils/copyToClipboard";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ErrorIcon from "@mui/icons-material/Error";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
@@ -49,6 +51,23 @@ const ActionButton = styled(Button)`
   text-transform: none;
 `;
 
+const CopyToClipboardModal = styled(Modal)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const ModalBox = styled(Box)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  // color: white;
+  background-color: lightgrey;
+`;
+
 type PersonalityTypeInfoProps = {
   type: PersonalityType;
   compareType?: PersonalityType;
@@ -64,6 +83,11 @@ const PersonalityTypeInfo = ({
 }: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
   const [compareModalOpen, setCompareModalOpen] = useState<boolean>(false);
+  const [copyToClipboardSuccess, setCopyToClipboardSuccess] = useState<
+    boolean | null
+  >(null);
+  const [copyToClipboardModalOpen, setCopyToClipboardModalOpen] =
+    useState<boolean>(false);
 
   return (
     <PersonalityTypeContainer>
@@ -72,7 +96,6 @@ const PersonalityTypeInfo = ({
           src={`/images/${typeData.type.toLowerCase()}-avatar.png`}
           style={{ width: "150px" }}
         />
-
         <InfoHeaderTextContainer>
           {!isInitialType && (
             <ClearIcon
@@ -118,6 +141,8 @@ const PersonalityTypeInfo = ({
               if (!copyResult.success) {
                 console.error("Failed to copy: ", copyResult.error);
               }
+              setCopyToClipboardSuccess(copyResult.success);
+              setCopyToClipboardModalOpen(true);
             }}
           >
             Share
@@ -152,6 +177,23 @@ const PersonalityTypeInfo = ({
         onClose={() => setCompareModalOpen(false)}
         onCompareTypeSelect={(type) => onCompareTypeSelect(type)}
       />
+      <CopyToClipboardModal
+        open={copyToClipboardModalOpen}
+        onClose={() => setCopyToClipboardModalOpen(false)}
+      >
+        <ModalBox>
+          {copyToClipboardSuccess ? (
+            <CheckCircleIcon sx={{ color: "green" }} />
+          ) : (
+            <ErrorIcon sx={{ color: "red" }} />
+          )}
+          <Typography sx={{ marginLeft: "0.5rem" }}>
+            {copyToClipboardSuccess
+              ? "Successfully copied to clipboard!"
+              : "Error copying to clipboard"}
+          </Typography>
+        </ModalBox>
+      </CopyToClipboardModal>
     </PersonalityTypeContainer>
   );
 };
