@@ -111,7 +111,11 @@ const PersonalityTypeInfo = ({
             variant="contained"
             sx={{ top: "3.8rem" }}
             startIcon={<IosShareIcon />}
-            onClick={() => copyToClipboard("test")}
+            onClick={() =>
+              copyToClipboard(
+                `${window.location.origin}/personality-type/${type}`
+              )
+            }
           >
             Share
           </ActionButton>
