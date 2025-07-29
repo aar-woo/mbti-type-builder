@@ -111,11 +111,14 @@ const PersonalityTypeInfo = ({
             variant="contained"
             sx={{ top: "3.8rem" }}
             startIcon={<IosShareIcon />}
-            onClick={() =>
-              copyToClipboard(
+            onClick={async () => {
+              const copyResult = await copyToClipboard(
                 `${window.location.origin}/personality-type/${type}`
-              )
-            }
+              );
+              if (!copyResult.success) {
+                console.error("Failed to copy: ", copyResult.error);
+              }
+            }}
           >
             Share
           </ActionButton>
