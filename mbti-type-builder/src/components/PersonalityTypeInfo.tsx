@@ -61,6 +61,7 @@ const ModalBox = styled(Box)`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 300px;
   height: 100px;
   border-radius: 5px;
@@ -183,15 +184,20 @@ const PersonalityTypeInfo = ({
       >
         <ModalBox>
           {copyToClipboardSuccess ? (
-            <CheckCircleIcon sx={{ color: "green" }} />
+            <>
+              <CheckCircleIcon sx={{ color: "green" }} />
+              <Typography sx={{ marginLeft: "0.5rem" }}>
+                Share link copied to clipboard!
+              </Typography>
+            </>
           ) : (
-            <ErrorIcon sx={{ color: "red" }} />
+            <>
+              <ErrorIcon sx={{ color: "red" }} />
+              <Typography sx={{ marginLeft: "0.5rem" }}>
+                Error Copying to clipboard.
+              </Typography>
+            </>
           )}
-          <Typography sx={{ marginLeft: "0.5rem" }}>
-            {copyToClipboardSuccess
-              ? "Successfully copied to clipboard!"
-              : "Error copying to clipboard"}
-          </Typography>
         </ModalBox>
       </CopyToClipboardModal>
     </PersonalityTypeContainer>
