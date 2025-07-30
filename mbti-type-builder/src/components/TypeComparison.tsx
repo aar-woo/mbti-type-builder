@@ -17,7 +17,8 @@ const TypeComparisonContainer = styled(Box)`
   position: relative;
   margin-top: 1rem;
   width: 25%;
-  height: 100%;
+  align-self: flex-start;
+
   overflow: hidden;
   padding: 1rem 0.7rem 1rem 0.7rem;
   background-color: lightgrey;
@@ -32,6 +33,7 @@ const ComparisonScrollContainer = styled(Box)`
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: flex-start;
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: grey transparent;

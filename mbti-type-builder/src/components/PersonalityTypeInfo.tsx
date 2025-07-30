@@ -1,4 +1,4 @@
-import { Box, Button, List, ListItem, styled, Typography } from "@mui/material";
+import { Box, Button, Modal, styled, Typography } from "@mui/material";
 import mbtiTypesData from "../mbti_types_data.json";
 import { PersonalityType } from "../types/personalityTypes";
 import PersonalityTypeInfoAccordion from "./PersonalityTypeInfoAccordion";
@@ -6,16 +6,19 @@ import CompareIcon from "@mui/icons-material/Compare";
 import { useState } from "react";
 import CompareTypeDialog from "./CompareTypeDialog";
 import ClearIcon from "@mui/icons-material/Clear";
+import IosShareIcon from "@mui/icons-material/IosShare";
+import copyToClipboard from "../utils/copyToClipboard";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ErrorIcon from "@mui/icons-material/Error";
 
 const PersonalityTypeContainer = styled(Box)`
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
+  align-self: flex-start;
   gap: 1rem;
   margin-top: 1rem;
-  width: 50%;
-  height: 100%;
   padding: 1rem;
   background-color: lightgrey;
   border-radius: 1rem;
@@ -41,11 +44,29 @@ const InfoHeaderTextContainer = styled(Box)`
   max-width: 400px;
 `;
 
-const CompareButton = styled(Button)`
+const ActionButton = styled(Button)`
   position: absolute;
-  top: 20px;
-  right: 20px;
-  text-decoration: none;
+  top: 1rem;
+  right: 1rem;
+  text-transform: none;
+`;
+
+const CopyToClipboardModal = styled(Modal)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const ModalBox = styled(Box)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  // color: white;
+  background-color: lightgrey;
 `;
 
 type PersonalityTypeInfoProps = {
@@ -63,6 +84,11 @@ const PersonalityTypeInfo = ({
 }: PersonalityTypeInfoProps) => {
   const typeData = mbtiTypesData[type];
   const [compareModalOpen, setCompareModalOpen] = useState<boolean>(false);
+  const [copyToClipboardSuccess, setCopyToClipboardSuccess] = useState<
+    boolean | null
+  >(null);
+  const [copyToClipboardModalOpen, setCopyToClipboardModalOpen] =
+    useState<boolean>(false);
 
   return (
     <PersonalityTypeContainer>
@@ -72,6 +98,56 @@ const PersonalityTypeInfo = ({
           style={{ width: "150px" }}
         />
         <InfoHeaderTextContainer>
+          {!isInitialType && (
+            <ClearIcon
+              sx={{
+                position: "absolute",
+                top: 20,
+                right: 20,
+                textDecoration: "none",
+                cursor: "pointer",
+              }}
+              onClick={(type) => onCompareTypeSelect(null)}
+            />
+          )}
+          {isInitialType ? (
+            <ActionButton
+              variant="contained"
+              color="primary"
+              startIcon={<CompareIcon />}
+              onClick={() => setCompareModalOpen((prev) => !prev)}
+            >
+              Compare
+            </ActionButton>
+          ) : (
+            <ClearIcon
+              sx={{
+                position: "absolute",
+                top: 20,
+                right: 20,
+                textDecoration: "none",
+                cursor: "pointer",
+              }}
+              onClick={() => onCompareTypeSelect(null)}
+            />
+          )}
+          <ActionButton
+            variant="contained"
+            sx={{ top: "3.8rem" }}
+            startIcon={<IosShareIcon />}
+            onClick={async () => {
+              const copyResult = await copyToClipboard(
+                `${window.location.origin}/personality-type/${type}`
+              );
+              if (!copyResult.success) {
+                console.error("Failed to copy: ", copyResult.error);
+              }
+              setCopyToClipboardSuccess(copyResult.success);
+              setCopyToClipboardModalOpen(true);
+            }}
+          >
+            Share
+          </ActionButton>
           <Typography
             variant="h4"
             sx={{ textDecoration: "underline", margin: "1rem 0" }}
@@ -80,27 +156,6 @@ const PersonalityTypeInfo = ({
           </Typography>
           <Typography variant="body1">{typeData.summary}</Typography>
         </InfoHeaderTextContainer>
-        {isInitialType ? (
-          <CompareButton
-            variant="contained"
-            color="primary"
-            startIcon={<CompareIcon />}
-            onClick={() => setCompareModalOpen((prev) => !prev)}
-          >
-            Compare
-          </CompareButton>
-        ) : (
-          <ClearIcon
-            sx={{
-              position: "absolute",
-              top: 20,
-              right: 20,
-              textDecoration: "none",
-              cursor: "pointer",
-            }}
-            onClick={(type) => onCompareTypeSelect(null)}
-          />
-        )}
       </InfoHeaderContainer>
       <Box>
         <PersonalityTypeInfoAccordion
@@ -123,6 +178,28 @@ const PersonalityTypeInfo = ({
         onClose={() => setCompareModalOpen(false)}
         onCompareTypeSelect={(type) => onCompareTypeSelect(type)}
       />
+      <CopyToClipboardModal
+        open={copyToClipboardModalOpen}
+        onClose={() => setCopyToClipboardModalOpen(false)}
+      >
+        <ModalBox>
+          {copyToClipboardSuccess ? (
+            <>
+              <CheckCircleIcon sx={{ color: "green" }} />
+              <Typography sx={{ marginLeft: "0.5rem" }}>
+                Share link copied to clipboard!
+              </Typography>
+            </>
+          ) : (
+            <>
+              <ErrorIcon sx={{ color: "red" }} />
+              <Typography sx={{ marginLeft: "0.5rem" }}>
+                Error Copying to clipboard.
+              </Typography>
+            </>
+          )}
+        </ModalBox>
+      </CopyToClipboardModal>
     </PersonalityTypeContainer>
   );
 };
