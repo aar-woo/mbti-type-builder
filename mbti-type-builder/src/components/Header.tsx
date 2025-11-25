@@ -6,6 +6,10 @@ const HeaderText = styled(Typography)`
   display: flex;
   padding: 0.5rem;
   white-space: nowrap;
+  font-size: 2rem;
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
 `;
 
 const typesArr = Object.values(PERSONALITY_TYPES);
@@ -38,7 +42,7 @@ const Header = () => {
           );
         })}
       </Marquee>
-      <HeaderText variant="h3">MBTI Type Builder</HeaderText>
+      <HeaderText>MBTI Type Builder</HeaderText>
       <Marquee
         direction="right"
         speed={20}
