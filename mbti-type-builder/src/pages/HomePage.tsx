@@ -86,11 +86,14 @@ const HomePage = () => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: "row",
+          flexDirection: "column",
           justifyContent: "center",
           gap: "1rem",
           width: "100%",
           minHeight: compareType && "540px",
+          "@media (min-width: 768px)": {
+            flexDirection: "row",
+          },
         }}
       >
         {compareType && personalityType ? (
@@ -101,7 +104,7 @@ const HomePage = () => {
               isInitialType={true}
               onCompareTypeSelect={handleCompareTypeSelect}
             />
-            <Box
+            {/* <Box
               ref={typeRef}
               sx={{
                 position: "absolute",
@@ -109,7 +112,7 @@ const HomePage = () => {
                 height: 0,
                 pointerEvents: "none",
               }}
-            />
+            /> */}
             <TypeComparison type={personalityType} compareType={compareType} />
             <PersonalityTypeInfo
               type={compareType}

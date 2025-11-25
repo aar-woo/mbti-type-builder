@@ -16,15 +16,19 @@ import LetterType from "../types/letterTypes";
 const TypeComparisonContainer = styled(Box)`
   position: relative;
   margin-top: 1rem;
-  width: 25%;
+  width: 100%;
   align-self: flex-start;
 
   overflow: hidden;
-  padding: 1rem 0.7rem 1rem 0.7rem;
+  padding: 1rem 0;
   background-color: lightgrey;
   border-radius: 1rem;
   box-shadow: 12px 12px 12px -8px rgba(0, 0, 0, 0.75);
   font-size: 12px;
+  @media (min-width: 768px) {
+    width: 25%;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+  }
 `;
 
 const ComparisonScrollContainer = styled(Box)`

@@ -12,16 +12,23 @@ import { letterTheme } from "../colors";
 
 const LettersContainer = styled(Box)`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 const LetterRow = styled(Box)`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 0.2rem;
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 type TypesSelectProps = {
