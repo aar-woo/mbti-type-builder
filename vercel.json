@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd mbti-type-builder && npm run build",
+  "outputDirectory": "mbti-type-builder/build",
+  "installCommand": "cd mbti-type-builder && npm install --legacy-peer-deps",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
