@@ -31,7 +31,7 @@ const Header = () => {
           return (
             <img
               key={`marquee-1-${type}-${index}`}
-              src={`/images/${type}-avatar.png`}
+              src={`/images/${type.toLowerCase()}-avatar.png`}
               alt={`${type} personality type avatar`}
               style={{ width: "32px", margin: "0 30px 0 30px" }}
             />
@@ -49,7 +49,7 @@ const Header = () => {
           return (
             <img
               key={`marquee-2-${type}-${index}`}
-              src={`/images/${type}-avatar.png`}
+              src={`/images/${type.toLowerCase()}-avatar.png`}
               alt={`${type} personality type avatar`}
               style={{ width: "30px", margin: "0 30px 0 30px" }}
             />
