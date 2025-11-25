@@ -21,22 +21,36 @@ const personalityTypesOffset = typesArr
 const Header = () => {
   return (
     <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-      <Marquee direction="right" speed={20}>
-        {Object.values(typesArr).map((type) => {
+      <Marquee
+        direction="right"
+        speed={20}
+        pauseOnHover={false}
+        gradient={false}
+      >
+        {Object.values(typesArr).map((type, index) => {
           return (
             <img
+              key={`marquee-1-${type}-${index}`}
               src={`/images/${type}-avatar.png`}
+              alt={`${type} personality type avatar`}
               style={{ width: "32px", margin: "0 30px 0 30px" }}
             />
           );
         })}
       </Marquee>
       <HeaderText variant="h3">MBTI Type Builder</HeaderText>
-      <Marquee direction="right" speed={20}>
-        {Object.values(personalityTypesOffset).map((type) => {
+      <Marquee
+        direction="right"
+        speed={20}
+        pauseOnHover={false}
+        gradient={false}
+      >
+        {Object.values(personalityTypesOffset).map((type, index) => {
           return (
             <img
+              key={`marquee-2-${type}-${index}`}
               src={`/images/${type}-avatar.png`}
+              alt={`${type} personality type avatar`}
               style={{ width: "30px", margin: "0 30px 0 30px" }}
             />
           );
